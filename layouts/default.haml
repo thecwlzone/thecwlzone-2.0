@@ -1,0 +1,53 @@
+!!! 1.1
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml", :'xml:lang' => info(:site_lang), :lang => info(:site_lang)}
+  %head
+    %meta{:'http-equiv' => "content-type", :content => "text/html; charset=utf-8"}
+    %meta{:name => "author", :content => info(:author)}
+    %meta{:name => "description", :content => info(:description)}
+    %meta{:name => "keywords", :content => info(:keywords)}
+    %meta{:name => "generator", :content => "nanoc — http://nanoc.stoneship.org"}
+    %link{:rel => "icon", :type => "image/png", :href => "/images/icon.png"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/screen.css", :media => "screen,projection"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/animations.css", :media => "screen,projection"}
+    -# %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/print.css", :media => "print"}
+
+    %title= "#{info :header_title} — #{@item[:title]}"
+
+    = head_content
+
+  %body
+    #pagetop.hide<
+      %p Skip to: <a href="#menu" accesskey="2">Site menu</a> | <a href="#main" accesskey="3">Main content</a>
+
+    #container
+      #header
+        %h1<
+          %a{:href => info(:header_url), :accesskey => "4"}= info :header_title
+        #tagline<
+          = info :header_slogan
+        = clear
+        #menu<
+          %ul
+            - menu_items.each do |i|
+              %li= menu_link i
+        -#langbar {langbar:}
+        = clear
+
+      #main.hyphenate
+        = yield
+        = clear
+      = clear
+
+    #pagebottom<
+      = render "partials/footer"
+      %a.hide{:href => "#pagetop", :accesskey => "1"} Back to top
+
+    %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"}
+    %script{:type => "text/javascript", :src => "/scripts/footnotes.js"}
+    = render "slidesjs/setup"
+    = render "setup/hyphenator"
+    -# render "setup/mathjax"
+    -# = render "setup/konami"
+    = render "setup/google_analytics"
+

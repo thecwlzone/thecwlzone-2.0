@@ -1,0 +1,7 @@
+- render 'default' do
+
+  %h1= @item[:title]
+  = render 'article_image'
+  = render 'article_meta'
+
+  = yield

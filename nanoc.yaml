@@ -1,0 +1,66 @@
+encoding: utf-8
+text_extensions: [
+  'bib', 'php', 'rb', 'js',
+  'css', 'less', 'sass', 'scss',
+  'erb', 'haml',
+  'txt', 'markdown', 'md',
+  'htm', 'html', 'xhtml', 'xml',
+  'feed' ]
+hidden_extensions: [
+  'png', 'gif', 'jpg', 'jpeg',
+  'js', 'coffee',
+  'css', 'scss', 'sass', 'less' ]
+
+data_sources:
+  - { type: filesystem_unified, items_root: /, layouts_root: /, allow_periods_in_identifiers: true }
+
+output_dir: staging/thecwlzone-2.0
+
+prune:
+  auto_prune: true
+
+deploy:
+  default:
+    kind: rsync
+    dst: staging/thecwlzone-2.0
+    options: &RSYNCOPTS [ --rsh=ssh, --archive, --delete-after, --verbose, --compress ]
+  public:
+    kind: rsync
+    dst:
+    options: *RSYNCOPTS
+  github:
+    kind: git
+    working_dir: staging
+
+base_url: &BASE http://
+author_uri: *BASE
+
+# default and global metadata
+default_info:
+  author_name: &ME Christopher W Lehman
+  analytics:
+  site_lang: en
+  header_title: *ME
+  header_url: /
+  header_slogan: >
+    Senior Engineer, Comcast National Engineering and Technical Operations
+    <a href="http://www.comcast.com">Comcast</a><br/>
+    <em>Ruby and Rails Developer</em>
+  description: >
+    Website of Christopher W Lehman DCS
+  keywords: >
+    ruby,
+    rails,
+    software engineering,
+    programming languages,
+    agile,
+    object-oriented
+  header_menu:
+    - /publications/
+    - /research/
+    - /teaching/
+    - /software/
+    - /curriculum/
+    - /contact/
+    - /notes/
+

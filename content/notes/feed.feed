@@ -1,0 +1,29 @@
+---
+title: Playing Tenuki
+subtitle: the art of computer procrastinating
+description: >
+  Random articles not completely unrelated
+  to research, objects, and programming languages.
+entries_pattern: /notes/[0-9][0-9][0-9][0-9]/[^/]+/
+entries_info: # merged into metadata of entries
+  tag_base_url: /notes/tags/#
+archives:
+  identifier: /notes/archives/
+  layout: /articles_by_year/
+  attributes:
+    title: Yearly archives
+    menu_title: Archives
+archives_yearly:
+  identifier: /notes/%{single_year}/
+  layout: /articles_by_year/
+  attributes:
+    title: Posted in %{single_year}
+tags:
+  identifier: /notes/tags/
+  layout: /articles_by_tag/
+  attributes:
+    title: Tags
+is_hidden: true
+---
+<%# atom_feed :limit => 5 %>
+<%# vim: set ft=yaml : %>
