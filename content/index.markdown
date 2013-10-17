@@ -3,9 +3,9 @@ title: Home
 menu_title: About me
 ---
 <%= render 'partials/markdown_links' %>
-<% render "slidesjs/slideshow_bare", style: 'width:700px;height:250px;', css_class: 'center noframe' do %>
+<% render "slidesjs/slideshow_bare", style: 'width:750px;height:250px;', css_class: 'center noframe' do %>
   <% items_by_identifier(%r{/images/landscapes/.*}).each do |i| %>
-    <img class='slide' src="<%= relative_path_to i %>" title="<%= i[:title] %>" alt="Random landscapes" width="700"/>
+    <img class='slide' src="<%= relative_path_to i %>" title="<%= i[:title] %>" alt="Random landscapes" width="750"/>
   <% end %>
 <% end %>
 
@@ -21,19 +21,12 @@ menu_title: About me
 [![Pharo by Example cover](/images/pbe-128.jpg){: .framed}][pbe]
 {: .right}
 
-I am associate professor (*Maître de conférences*) at the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
-
-I [teach](/teaching/) programming and software engineering at [Telecom Lille 1][telecom],
-and [research](/research/) on reengineering at [Inria][] within the [RMoD project-team][rmod].
-
-I'm a co-author of the open-source books [*Squeak by Example*][sbe] and [*Pharo by Example*][pbe].
+I am a Senior Engineer with Comcast's National Engineering and Technical
+Operations team.
 
 ##### Curriculum
-I received an engineering degree in computer science from [Insa][] in 2001, and obtained my Ph.D in 2005 from the [university of Rennes 1][rennes1], France ([details here](/curriculum/)).
-
-[ieea]: http://ieea.univ-lille1.fr "Unité de Formation et de Recherche d’Informatique, Électronique, Électrotechnique et Automatique"
-[insa]: http://www.insa-rennes.fr/?LangueID=2 "Institut National des Sciences Appliquées"
-[rennes1]: http://www.univ-rennes1.fr/english/
+I hold a BS in Electrical Engineering and a Doctorate of Computer
+Science.
 
 ----
 
@@ -50,12 +43,11 @@ I received an engineering degree in computer science from [Insa][] in 2001, and 
 
 ## [Contact Info](/contact/)
 
-See my [detailed contact page](/contact/) for more info, the [access map](/contact/#map) to our offices, and my [agenda](/contact/#agenda).
+See my [detailed contact page](/contact/) for more info and the [access map](/contact/#map) to my office.
 
 <%= render 'partials/contact_info' %>
 
 <div class="banner">
-  <h6>Software evolves!</h6>
-  <p>Therefore, these pages are never complete, and always under constant refactoring and evolution… for some definition of <em>constant</em>.</p>
+  <p>These pages are never complete, and always under constant refactoring and evolution…</p>
 </div>
 
