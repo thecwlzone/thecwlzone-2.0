@@ -16,13 +16,13 @@
 #header h1 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header h1 { float: left; margin: 0 1em; font-size: 200%; font-weight: 100; text-transform: uppercase; letter-spacing: 0.15em; }$/;"	i
 #header h1 a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header h1 a { color: #26421b; }$/;"	i
 #langbar 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#langbar { margin: 1.5ex 0 -2ex 0; float: right; }$/;"	i
-#main 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main { color: black; padding: 2em 14.5em; margin: 0 -2em; background-color: white; border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; }$/;"	i
+#main 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main { color: black; padding: 2em 2em 2em 2em; margin: 0 -2em; background-color: white; border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; }$/;"	i
 #main .banner 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .banner { background-color: #deefd1; background: -webkit-gradient(linear, left top, right bottom, from(white), color-stop(0.3, #deefd1), color-stop(0.7, #deefd1), to(white)); background: -moz-linear-gradient(left, white, #deefd1, #deefd1, white); }$/;"	i
-#main .banner 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .highlight, #main .banner { margin: 1em -14.5em 1em -14.5em !important; padding: 1ex 14.5em 1ex 14.5em; clear: both; }$/;"	i
+#main .banner 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .highlight, #main .banner { margin: 1em 1em 1em 1em !important; padding: 1ex 1em 1ex 1em; clear: both; }$/;"	i
 #main .center 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .center { text-align: center; }$/;"	i
 #main .framed	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .framed, #main .noframe { margin: 0 0 1em 0; }$/;"	i
 #main .framed 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .framed { background-color: #aaaaaa; padding: 1px; border: 1px solid #dddddd; }$/;"	i
-#main .highlight	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .highlight, #main .banner { margin: 1em -14.5em 1em -14.5em !important; padding: 1ex 14.5em 1ex 14.5em; clear: both; }$/;"	i
+#main .highlight	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .highlight, #main .banner { margin: 1em 1em 1em 1em !important; padding: 1ex 1em 1ex 1em; clear: both; }$/;"	i
 #main .highlight 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .highlight { background-color: #ffffa0; background: -webkit-gradient(linear, left top, right bottom, from(white), color-stop(0.3, #ffffa0), color-stop(0.7, #ffffa0), to(white)); background: -moz-linear-gradient(left, white, #ffffa0, #ffffa0, white); }$/;"	i
 #main .huge 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .huge { font-size: 10em; }$/;"	i
 #main .left 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .left { clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; }$/;"	i

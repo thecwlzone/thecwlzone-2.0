@@ -37,7 +37,8 @@ author_uri: *BASE
 
 # default and global metadata
 default_info:
-  author_name: &ME Christopher W Lehman
+  author_name: &ME Christopher W Lehman DCS
+  author: *ME
   analytics:
   site_lang: en
   header_title: *ME
@@ -52,7 +53,6 @@ default_info:
     ruby,
     rails,
     software engineering,
-    programming languages,
     agile,
     object-oriented
   header_menu:
