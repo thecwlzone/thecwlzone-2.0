@@ -212,30 +212,23 @@ address	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, 
 all_feeds	lib/helpers/blogging.rb	/^  def all_feeds$/;"	f	class:Blogging
 ancestor_link_unless_current	lib/default.rb	/^def ancestor_link_unless_current(title, destination)$/;"	f
 ancestor_of?	lib/default.rb	/^  def ancestor_of?(item)$/;"	f	class:Nanoc
-animations.css	content/stylesheets/animations.css	1;"	F
-animations.css	staging/thecwlzone-2.0/stylesheets/animations.css	1;"	F
 appear 	content/stylesheets/animations.css	/^@-webkit-keyframes appear {$/;"	s
 appear 	staging/thecwlzone-2.0/stylesheets/animations.css	/^@-webkit-keyframes appear {$/;"	s
 apply_yaml_hacks	commands/new-note.rb	/^    def apply_yaml_hacks$/;"	f
 archive_item	lib/helpers/blogging.rb	/^    def archive_item$/;"	f	class:Blogging.Feed
 article_image	lib/helpers/blogging.rb	/^  def article_image(item)$/;"	f	class:Blogging
 blockquote	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-blogging.rb	lib/helpers/blogging.rb	1;"	F
 body	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 body 	staging/thecwlzone-2.0/stylesheets/screen.css	/^body { margin: 1em; font-family: Ubuntu, "Myriad Pro", Calibri, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif; line-height: 1.3; }$/;"	s
-by_extension_filter.rb	lib/filters/by_extension_filter.rb	1;"	F
 caption	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
 caption	staging/thecwlzone-2.0/stylesheets/screen.css	/^caption, th { text-align: left; }$/;"	s
-capturing.rb	lib/helpers/capturing.rb	1;"	F
 chain_entries	lib/helpers/blogging.rb	/^    def chain_entries$/;"	f	class:Blogging.Feed
 check_available_identifier	commands/new-note.rb	/^    def check_available_identifier candidate$/;"	f
-checks.rb	checks.rb	1;"	F
 cite	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
 classification_item	lib/helpers/blogging.rb	/^    def classification_item(contents, mtime, options, args={})$/;"	f	class:Blogging.Feed
 classified_entries	lib/helpers/blogging.rb	/^    def classified_entries(reverse=true, &block)$/;"	f	class:Blogging.Feed
 clear	lib/helpers.rb	/^def clear$/;"	f
 clear: left	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-closure_compiler.rb	lib/filters/closure_compiler.rb	1;"	F
 code	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
 color: #aaaaaa	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
 content	commands/new-note.rb	/^    def content$/;"	f
@@ -243,7 +236,6 @@ count_tags	lib/helpers/tagging_extra.rb	/^  def count_tags(items=nil)$/;"	f	clas
 create_sitemap	lib/helpers/sitemap.rb	/^def create_sitemap$/;"	f
 create_tag_pages	lib/helpers/tagging_extra.rb	/^  def create_tag_pages(partial, title_prefix, identifier_prefix)$/;"	f	class:TaggingExtra
 dd	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-default.rb	lib/default.rb	1;"	F
 dfn	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
 div	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 divOver	content/scripts/footnotes.js	/^    function divOver() {$/;"	f
@@ -255,12 +247,10 @@ e	staging/thecwlzone-2.0/scripts/konami.js	/^var Konami=function(){var a={addEve
 em	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
 em 	staging/thecwlzone-2.0/stylesheets/screen.css	/^em { font: inherit; font-style: italic; }$/;"	s
 entity_encode	lib/helpers/entity_encoding.rb	/^  def entity_encode(string=nil, &block)$/;"	f	class:EntityEncoding
-entity_encoding.rb	lib/helpers/entity_encoding.rb	1;"	F
 entries	lib/helpers/blogging.rb	/^    def entries$/;"	f	class:Blogging.Feed
 entries_by_year	lib/helpers/blogging.rb	/^    def entries_by_year$/;"	f	class:Blogging.Feed
 excerpt	lib/helpers/capturing.rb	/^  def excerpt(name, &block)$/;"	f	class:Capturing
 extension	lib/default.rb	/^def extension(ext=nil, opts={})$/;"	f
-external.rb	lib/filters/external.rb	1;"	F
 feed?	lib/helpers/blogging.rb	/^    def feed?$/;"	f	class:Blogging.Nanoc
 feed_named	lib/helpers/blogging.rb	/^  def feed_named(id)$/;"	f	class:Blogging
 fieldset	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
@@ -273,11 +263,8 @@ footnoteOut	content/scripts/footnotes.js	/^    function footnoteOut() {$/;"	f
 footnoteOut	staging/thecwlzone-2.0/scripts/footnotes.js	/^    function footnoteOut() {$/;"	f
 footnoteOver	content/scripts/footnotes.js	/^    function footnoteOver() {$/;"	f
 footnoteOver	staging/thecwlzone-2.0/scripts/footnotes.js	/^    function footnoteOver() {$/;"	f
-footnotes.js	content/scripts/footnotes.js	1;"	F
-footnotes.js	staging/thecwlzone-2.0/scripts/footnotes.js	1;"	F
 form	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 generate	lib/helpers/blogging.rb	/^    def generate$/;"	f	class:Blogging.Feed
-git_push.rb	lib/deployers/git_push.rb	1;"	F
 h1	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 h1	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }$/;"	s
 h2	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
@@ -292,37 +279,13 @@ h6	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol
 h6 	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }$/;"	s
 has_tag?	lib/helpers/tagging_extra.rb	/^  def has_tag?(item, tag)$/;"	f	class:TaggingExtra
 head_content	lib/helpers/head_content.rb	/^def head_content$/;"	f
-head_content.rb	lib/helpers/head_content.rb	1;"	F
-helpers.rb	lib/helpers.rb	1;"	F
 hide_items	lib/helpers/sitemap.rb	/^def hide_items$/;"	f
 html 	staging/thecwlzone-2.0/stylesheets/screen.css	/^html { min-height: 100%; font-size: 81.25%; background-color: #5fa644; background: -webkit-gradient(linear, left top, 50 400, from(#82b450), to(#5fa644)); background: -moz-linear-gradient(-70deg, #82b450, #5fa644); }$/;"	s
-hyphenator.js	content/scripts/hyphenator.js	1;"	F
-hyphenator.js	staging/thecwlzone-2.0/scripts/hyphenator.js	1;"	F
 identifier	commands/new-note.rb	/^    def identifier$/;"	f
 img	lib/helpers.rb	/^def img(item=nil, attributes={})$/;"	f
 img 	staging/thecwlzone-2.0/stylesheets/screen.css	/^fieldset, img { border: 0; }$/;"	s
 img 	staging/thecwlzone-2.0/stylesheets/screen.css	/^img { margin: 1ex; }$/;"	s
 important	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-index.html	staging/thecwlzone-2.0/contact/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/curriculum/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/2009/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/2009/playing-tenuki/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/2010/accented-qwerty/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/2010/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/2010/latexmk-omnigraffle/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/2010/shared-bibtex/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/2010/tourcoing-jazz-festival/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/archives/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/notes/tags/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/publications/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/research/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/software/citezen/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/software/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/software/petitmarkdown/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/teaching/grading-progress/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/teaching/index.html	1;"	F
 info	lib/default.rb	/^def info(key, item=nil)$/;"	f
 initialize	lib/helpers/blogging.rb	/^    def initialize(site, root)$/;"	f	class:Blogging.Feed
 input	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
@@ -330,10 +293,6 @@ is_root?	lib/default.rb	/^  def is_root?()  self.identifier == '\/'  end$/;"	f	c
 item_named	lib/default.rb	/^def item_named(id)$/;"	f
 items_by_identifier	lib/default.rb	/^def items_by_identifier(pattern)$/;"	f
 items_with_tag	lib/helpers/tagging_extra.rb	/^  def items_with_tag(tag, items=nil)$/;"	f	class:TaggingExtra
-jquery.easing.1.3.js	content/scripts/jquery.easing.1.3.js	1;"	F
-jquery.easing.1.3.js	staging/thecwlzone-2.0/scripts/jquery.easing.1.3.js	1;"	F
-konami.js	content/scripts/konami.js	1;"	F
-konami.js	staging/thecwlzone-2.0/scripts/konami.js	1;"	F
 li	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 mailto	lib/helpers/entity_encoding.rb	/^  def mailto(email, subject=nil, text=nil, attributes = {})$/;"	f	class:EntityEncoding
 margin-left: -12.5em 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
@@ -345,35 +304,27 @@ metadata	commands/new-note.rb	/^    def metadata$/;"	f
 mtime	lib/helpers/blogging.rb	/^    def mtime(items=nil)$/;"	f	class:Blogging.Feed
 name	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] a { color: #90afc8; }$/;"	s
 name	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-new-note.rb	commands/new-note.rb	1;"	F
 ol	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 ol	staging/thecwlzone-2.0/stylesheets/screen.css	/^ol, ul { list-style: none; }$/;"	s
 p	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 padding-left: 1em	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes a[rev="footnote"], #footnotebubble a[rev="footnote"] { padding-left: 1em; }$/;"	s
 phone	lib/helpers.rb	/^def phone(main, opts={})$/;"	f
 pre	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-publish.rb	commands/publish.rb	1;"	F
 pulse 	content/stylesheets/animations.css	/^@-webkit-keyframes pulse {$/;"	s
 pulse 	staging/thecwlzone-2.0/stylesheets/animations.css	/^@-webkit-keyframes pulse {$/;"	s
-push.rb	commands/push.rb	1;"	F
 q:after 	staging/thecwlzone-2.0/stylesheets/screen.css	/^q:after { content: ”; }$/;"	s
 q:before 	staging/thecwlzone-2.0/stylesheets/screen.css	/^q:before { content: “; }$/;"	s
 rank_tags	lib/helpers/tagging_extra.rb	/^  def rank_tags(n, items=nil) $/;"	f	class:TaggingExtra
 rev	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes a[rev="footnote"], #footnotebubble a[rev="footnote"] { padding-left: 1em; }$/;"	s
-rules.rb	rules.rb	1;"	F
 run	commands/new-note.rb	/^    def run$/;"	f	class:Commands.CreatePost
 run	lib/deployers/git_push.rb	/^  def run$/;"	f	class:GitPush
 run	lib/filters/by_extension_filter.rb	/^    def run(content, params={})$/;"	f	class:ByExtension
 run	lib/filters/closure_compiler.rb	/^  def run(content, params={})$/;"	f	class:ClosureCompiler
 run	lib/filters/external.rb	/^  def run(content, params={})$/;"	f	class:External
-screen.css	staging/thecwlzone-2.0/stylesheets/screen.css	1;"	F
 set_info	lib/helpers/blogging.rb	/^    def set_info$/;"	f	class:Blogging.Feed
 setup_notification	commands/new-note.rb	/^    def setup_notification$/;"	f
-sitemap.rb	lib/helpers/sitemap.rb	1;"	F
 slide-in 	content/stylesheets/animations.css	/^@-webkit-keyframes slide-in {$/;"	s
 slide-in 	staging/thecwlzone-2.0/stylesheets/animations.css	/^@-webkit-keyframes slide-in {$/;"	s
-slides.jquery.js	content/scripts/slides.jquery.js	1;"	F
-slides.jquery.js	staging/thecwlzone-2.0/scripts/slides.jquery.js	1;"	F
 sluggify	commands/new-note.rb	/^    def sluggify str$/;"	f
 strong	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
 strong 	staging/thecwlzone-2.0/stylesheets/screen.css	/^strong { font-weight: bold; }$/;"	s
@@ -381,7 +332,6 @@ strong.marker 	staging/thecwlzone-2.0/stylesheets/screen.css	/^strong.marker { b
 table 	staging/thecwlzone-2.0/stylesheets/screen.css	/^table { border-collapse: collapse; border-spacing: 0; }$/;"	s
 tag_item	lib/helpers/blogging.rb	/^    def tag_item$/;"	f	class:Blogging.Feed
 tag_set	lib/helpers/tagging_extra.rb	/^  def tag_set(items=nil)$/;"	f	class:TaggingExtra
-tagging_extra.rb	lib/helpers/tagging_extra.rb	1;"	F
 td 	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 text-align: right	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
 textarea	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
