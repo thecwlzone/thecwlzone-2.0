@@ -1,11 +1,17 @@
 @import reset
 @import slides
 
-$text_font: Ubuntu, "Myriad Pro", Calibri, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
+//$text_font: Ubuntu, "Myriad Pro", Calibri, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
+//$text_font: "Trebuchet MS", Helvetica, sans-serif
+//$text_font: Gill Sans / Gill Sans MT, sans-serif
+//$text_font:  Copperplate / Copperplate Gothic Light, sans-serif
+$text_font: "Lucida Console", Monaco, monospace
 $display_font: $text_font
 
-$body_color: rgb(95, 166, 68)
-$body_alt_color: rgb(72, 142, 69)
+//$body_color: rgb(95, 166, 68)
+//$body_alt_color: rgb(72, 142, 69)
+$body_color: rgb(92, 133, 214)
+$body_alt_color: rgb(112, 92, 214)
 $body_link_color: rgb(29, 61, 53)
 
 $headings_color: rgb(224, 80, 48)
@@ -60,10 +66,13 @@ $marker_color: $highlight_color
 
 html
   min-height: 100%
-  font-size: 81.25%
+  //font-size: 81.25%
+  font-size: 90%
   background-color: $body_color
-  background: -webkit-gradient(linear, left top, 50 400, from(rgb(130,180,80)), to($body_color))
-  background: -moz-linear-gradient(-70deg, rgb(130,180,80), $body_color)
+  //background: -webkit-gradient(linear, left top, 50 400, from(rgb(130,180,80)), to($body_color))
+  //background: -moz-linear-gradient(-70deg, rgb(130,180,80), $body_color)
+  background: -webkit-gradient(linear, left top, 50 400, from(rgb(80,180,130)), to($body_color))
+  background: -moz-linear-gradient(-70deg, rgb(80,180,130), $body_color)
 
 body
   margin: 1em
@@ -328,7 +337,7 @@ strong.marker
   margin: 1em auto
   font-size: smaller
   text-align: center
-  opacity: 0.5
+  opacity: 0.9
   &:hover
     opacity: 1
     -webkit-transition:

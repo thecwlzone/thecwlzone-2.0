@@ -4,7 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-#container 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#container { background-color: #488e45; background: -webkit-gradient(linear, left top, 75 600, from(#5fa644), to(#488e45)); background: -moz-linear-gradient(-70deg, #5fa644, #488e45); max-width: 65em; margin: 1em auto; padding: 1em 2.5em 1em 2.5em; border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; box-shadow: 0 0 1ex #96b450; -webkit-box-shadow: 0 0 1ex #96b450; -moz-box-shadow: 0 0 1ex #96b450; }$/;"	i
+#container 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#container { background-color: #705cd6; background: -webkit-gradient(linear, left top, 75 600, from(#5c85d6), to(#705cd6)); background: -moz-linear-gradient(-70deg, #5c85d6, #705cd6); max-width: 65em; margin: 1em auto; padding: 1em 2.5em 1em 2.5em; border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; box-shadow: 0 0 1ex #96b450; -webkit-box-shadow: 0 0 1ex #96b450; -moz-box-shadow: 0 0 1ex #96b450; }$/;"	i
 #footnotebubble 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#footnotebubble { max-width: 20em; padding: 1em; background-color: #deefd1; border: 1px solid #cccccc; box-shadow: #cccccc 0 0 10px; -webkit-box-shadow: #cccccc 0 0 10px; -moz-box-shadow: #cccccc 0 0 10px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }$/;"	i
 #footnotebubble 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes, #footnotebubble { font-size: smaller; }$/;"	i
 #footnotebubble a	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes a[rev="footnote"], #footnotebubble a[rev="footnote"] { padding-left: 1em; }$/;"	i
@@ -14,7 +14,7 @@
 #header #tagline 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header #tagline { float: right; text-align: right; margin: 0 2em 0 5em; }$/;"	i
 #header h1 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header h1 { -webkit-animation-name: slide-in; -webkit-animation-duration: 0.5s; -webkit-animation-timing-function: ease; }$/;"	i
 #header h1 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header h1 { float: left; margin: 0 1em; font-size: 200%; font-weight: 100; text-transform: uppercase; letter-spacing: 0.15em; }$/;"	i
-#header h1 a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header h1 a { color: #26421b; }$/;"	i
+#header h1 a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header h1 a { color: #243555; }$/;"	i
 #langbar 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#langbar { margin: 1.5ex 0 -2ex 0; float: right; }$/;"	i
 #main 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main { color: black; padding: 2em 2em 2em 2em; margin: 0 -2em; background-color: white; border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; }$/;"	i
 #main .banner 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .banner { background-color: #deefd1; background: -webkit-gradient(linear, left top, right bottom, from(white), color-stop(0.3, #deefd1), color-stop(0.7, #deefd1), to(white)); background: -moz-linear-gradient(left, white, #deefd1, #deefd1, white); }$/;"	i
@@ -280,7 +280,7 @@ h6 	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { fon
 has_tag?	lib/helpers/tagging_extra.rb	/^  def has_tag?(item, tag)$/;"	f	class:TaggingExtra
 head_content	lib/helpers/head_content.rb	/^def head_content$/;"	f
 hide_items	lib/helpers/sitemap.rb	/^def hide_items$/;"	f
-html 	staging/thecwlzone-2.0/stylesheets/screen.css	/^html { min-height: 100%; font-size: 81.25%; background-color: #5fa644; background: -webkit-gradient(linear, left top, 50 400, from(#82b450), to(#5fa644)); background: -moz-linear-gradient(-70deg, #82b450, #5fa644); }$/;"	s
+html 	staging/thecwlzone-2.0/stylesheets/screen.css	/^html { min-height: 100%; font-size: 81.25%; background-color: #5c85d6; background: -webkit-gradient(linear, left top, 50 400, from(#50b482), to(#5c85d6)); background: -moz-linear-gradient(-70deg, #50b482, #5c85d6); }$/;"	s
 identifier	commands/new-note.rb	/^    def identifier$/;"	f
 img	lib/helpers.rb	/^def img(item=nil, attributes={})$/;"	f
 img 	staging/thecwlzone-2.0/stylesheets/screen.css	/^fieldset, img { border: 0; }$/;"	s
