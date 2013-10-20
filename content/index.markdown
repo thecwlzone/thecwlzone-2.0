@@ -26,6 +26,6 @@ See my [detailed contact page](/contact/) for more info and the [access map](/co
 <%= render 'partials/contact_info' %>
 
 <div class="banner">
-  <p>These pages are never complete, and always under constant refactoring and evolution…</p>
+  <p>This site does not use Google Analytics or any other user tracking software</p>
 </div>
 

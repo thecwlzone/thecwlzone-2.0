@@ -1,5 +1,6 @@
-
+---
 title: Contact
+---
 
 <%= render 'partials/markdown_links' %>
 

@@ -41,13 +41,13 @@
 #main dl 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main p, #main ul, #main ol, #main dl { margin-top: 0.75ex; margin-bottom: 0.75ex; }$/;"	i
 #main dl dt 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main dl dt { font-weight: bold; margin-left: -1em; }$/;"	i
 #main h1	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1, #main h2, #main h3, #main h4 { color: #e05030; margin: 2ex 0 1ex 0; }$/;"	i
-#main h1 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 { font-family: Ubuntu, "Myriad Pro", Calibri, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif; font-size: 250%; font-weight: lighter; }$/;"	i
+#main h1 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 { font-family: "Lucida Console", Monaco, monospace; font-size: 250%; font-weight: lighter; }$/;"	i
 #main h1 a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
 #main h2	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1, #main h2, #main h3, #main h4 { color: #e05030; margin: 2ex 0 1ex 0; }$/;"	i
-#main h2 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h2 { font-family: Ubuntu, "Myriad Pro", Calibri, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif; font-size: 180%; }$/;"	i
+#main h2 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h2 { font-family: "Lucida Console", Monaco, monospace; font-size: 180%; }$/;"	i
 #main h2 a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
 #main h3	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1, #main h2, #main h3, #main h4 { color: #e05030; margin: 2ex 0 1ex 0; }$/;"	i
-#main h3 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h3 { font-family: Ubuntu, "Myriad Pro", Calibri, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif; font-size: 130%; }$/;"	i
+#main h3 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h3 { font-family: "Lucida Console", Monaco, monospace; font-size: 130%; }$/;"	i
 #main h3 a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
 #main h4 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1, #main h2, #main h3, #main h4 { color: #e05030; margin: 2ex 0 1ex 0; }$/;"	i
 #main h4 a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
@@ -91,7 +91,7 @@
 #menu li 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#menu li { display: inline-block; margin: 0 0.5ex; }$/;"	i
 #menu span	staging/thecwlzone-2.0/stylesheets/screen.css	/^#menu span, #menu a { display: inline-block; padding: 0.9ex 1ex 0.5ex 1ex; color: #888888; }$/;"	i
 #menu ul 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#menu ul { display: block; list-style: none; margin: 0 -1.5ex; padding: 0; }$/;"	i
-#pagebottom 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#pagebottom { margin: 1em auto; font-size: smaller; text-align: center; opacity: 0.5; }$/;"	i
+#pagebottom 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#pagebottom { margin: 1em auto; font-size: smaller; text-align: center; opacity: 0.9; }$/;"	i
 #pagebottom #HyphenatorToggleBox 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#pagebottom #HyphenatorToggleBox { display: inline; }$/;"	i
 #pagebottom:hover 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#pagebottom:hover { opacity: 1; -webkit-transition-property: opacity; -webkit-transition-duration: 0.3s; }$/;"	i
 $.fn.randomize	content/scripts/slides.jquery.js	/^	$.fn.randomize = function(callback) {$/;"	f
@@ -219,7 +219,7 @@ archive_item	lib/helpers/blogging.rb	/^    def archive_item$/;"	f	class:Blogging
 article_image	lib/helpers/blogging.rb	/^  def article_image(item)$/;"	f	class:Blogging
 blockquote	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 body	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-body 	staging/thecwlzone-2.0/stylesheets/screen.css	/^body { margin: 1em; font-family: Ubuntu, "Myriad Pro", Calibri, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif; line-height: 1.3; }$/;"	s
+body 	staging/thecwlzone-2.0/stylesheets/screen.css	/^body { margin: 1em; font-family: "Lucida Console", Monaco, monospace; line-height: 1.3; }$/;"	s
 caption	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
 caption	staging/thecwlzone-2.0/stylesheets/screen.css	/^caption, th { text-align: left; }$/;"	s
 chain_entries	lib/helpers/blogging.rb	/^    def chain_entries$/;"	f	class:Blogging.Feed
@@ -280,7 +280,7 @@ h6 	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { fon
 has_tag?	lib/helpers/tagging_extra.rb	/^  def has_tag?(item, tag)$/;"	f	class:TaggingExtra
 head_content	lib/helpers/head_content.rb	/^def head_content$/;"	f
 hide_items	lib/helpers/sitemap.rb	/^def hide_items$/;"	f
-html 	staging/thecwlzone-2.0/stylesheets/screen.css	/^html { min-height: 100%; font-size: 81.25%; background-color: #5c85d6; background: -webkit-gradient(linear, left top, 50 400, from(#50b482), to(#5c85d6)); background: -moz-linear-gradient(-70deg, #50b482, #5c85d6); }$/;"	s
+html 	staging/thecwlzone-2.0/stylesheets/screen.css	/^html { min-height: 100%; font-size: 90%; background-color: #5c85d6; background: -webkit-gradient(linear, left top, 50 400, from(#50b482), to(#5c85d6)); background: -moz-linear-gradient(-70deg, #50b482, #5c85d6); }$/;"	s
 identifier	commands/new-note.rb	/^    def identifier$/;"	f
 img	lib/helpers.rb	/^def img(item=nil, attributes={})$/;"	f
 img 	staging/thecwlzone-2.0/stylesheets/screen.css	/^fieldset, img { border: 0; }$/;"	s

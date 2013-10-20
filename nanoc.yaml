@@ -58,9 +58,7 @@ default_info:
   header_menu:
     - /publications/
     - /research/
-    - /teaching/
-    - /software/
     - /curriculum/
     - /contact/
-    - /notes/
+    - /about/
 

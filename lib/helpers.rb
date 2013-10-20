@@ -23,7 +23,7 @@ def clear
 end
 
 def phone(main, opts={})
-  prefix = opts.fetch :prefix, 33
+  prefix = opts.fetch :prefix, 1
   separator = opts[:separator] || '&nbsp;'
 
   parts = main.scan /\d+/
