@@ -4,169 +4,66 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-#container 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#container { background-color: #705cd6; background: -webkit-gradient(linear, left top, 75 600, from(#5c85d6), to(#705cd6)); background: -moz-linear-gradient(-70deg, #5c85d6, #705cd6); max-width: 65em; margin: 1em auto; padding: 1em 2.5em 1em 2.5em; border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; box-shadow: 0 0 1ex #96b450; -webkit-box-shadow: 0 0 1ex #96b450; -moz-box-shadow: 0 0 1ex #96b450; }$/;"	i
-#footnotebubble 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#footnotebubble { max-width: 20em; padding: 1em; background-color: #deefd1; border: 1px solid #cccccc; box-shadow: #cccccc 0 0 10px; -webkit-box-shadow: #cccccc 0 0 10px; -moz-box-shadow: #cccccc 0 0 10px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }$/;"	i
-#footnotebubble 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes, #footnotebubble { font-size: smaller; }$/;"	i
-#footnotebubble a	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes a[rev="footnote"], #footnotebubble a[rev="footnote"] { padding-left: 1em; }$/;"	i
-#footnotebubble hr 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes hr, #footnotebubble hr { width: 50%; margin-left: 0; }$/;"	i
-#footnotebubble p 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes p, #footnotebubble p { display: inline; }$/;"	i
-#header 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header { margin: 0 -2em 1ex -2em; }$/;"	i
-#header #tagline 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header #tagline { float: right; text-align: right; margin: 0 2em 0 5em; }$/;"	i
-#header h1 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header h1 { -webkit-animation-name: slide-in; -webkit-animation-duration: 0.5s; -webkit-animation-timing-function: ease; }$/;"	i
-#header h1 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header h1 { float: left; margin: 0 1em; font-size: 200%; font-weight: 100; text-transform: uppercase; letter-spacing: 0.15em; }$/;"	i
-#header h1 a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#header h1 a { color: #243555; }$/;"	i
-#langbar 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#langbar { margin: 1.5ex 0 -2ex 0; float: right; }$/;"	i
-#main 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main { color: black; padding: 2em 2em 2em 2em; margin: 0 -2em; background-color: white; border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; }$/;"	i
-#main .banner 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .banner { background-color: #deefd1; background: -webkit-gradient(linear, left top, right bottom, from(white), color-stop(0.3, #deefd1), color-stop(0.7, #deefd1), to(white)); background: -moz-linear-gradient(left, white, #deefd1, #deefd1, white); }$/;"	i
-#main .banner 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .highlight, #main .banner { margin: 1em 1em 1em 1em !important; padding: 1ex 1em 1ex 1em; clear: both; }$/;"	i
-#main .center 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .center { text-align: center; }$/;"	i
-#main .framed	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .framed, #main .noframe { margin: 0 0 1em 0; }$/;"	i
-#main .framed 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .framed { background-color: #aaaaaa; padding: 1px; border: 1px solid #dddddd; }$/;"	i
-#main .highlight	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .highlight, #main .banner { margin: 1em 1em 1em 1em !important; padding: 1ex 1em 1ex 1em; clear: both; }$/;"	i
-#main .highlight 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .highlight { background-color: #ffffa0; background: -webkit-gradient(linear, left top, right bottom, from(white), color-stop(0.3, #ffffa0), color-stop(0.7, #ffffa0), to(white)); background: -moz-linear-gradient(left, white, #ffffa0, #ffffa0, white); }$/;"	i
-#main .huge 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .huge { font-size: 10em; }$/;"	i
-#main .left 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .left { clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; }$/;"	i
-#main .noframe 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .framed, #main .noframe { margin: 0 0 1em 0; }$/;"	i
-#main .noframe 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .noframe { padding: 3px; }$/;"	i
-#main .postmeta 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .postmeta { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; }$/;"	i
-#main .postmeta .date	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .postmeta .date, #main .postmeta .tags { display: block; }$/;"	i
-#main .postmeta .tags 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .postmeta .date, #main .postmeta .tags { display: block; }$/;"	i
-#main .postmeta a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .postmeta a { color: #90afc8; }$/;"	i
-#main .right 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main .right { clear: right; float: right; margin-right: -12.5em !important; margin-left: 1em; text-align: left; }$/;"	i
-#main a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main a { color: #114498; }$/;"	i
-#main address 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main address { margin: 1ex 0; }$/;"	i
-#main blockquote	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main blockquote, #main pre { margin: 1ex 2em; padding: 1ex; }$/;"	i
-#main blockquote 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main blockquote { color: #666666; }$/;"	i
-#main dl 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main dl { margin-left: 1em; }$/;"	i
-#main dl 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main p, #main ul, #main ol, #main dl { margin-top: 0.75ex; margin-bottom: 0.75ex; }$/;"	i
-#main dl dt 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main dl dt { font-weight: bold; margin-left: -1em; }$/;"	i
-#main h1	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1, #main h2, #main h3, #main h4 { color: #e05030; margin: 2ex 0 1ex 0; }$/;"	i
-#main h1 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 { font-family: "Lucida Console", Monaco, monospace; font-size: 250%; font-weight: lighter; }$/;"	i
-#main h1 a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
-#main h2	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1, #main h2, #main h3, #main h4 { color: #e05030; margin: 2ex 0 1ex 0; }$/;"	i
-#main h2 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h2 { font-family: "Lucida Console", Monaco, monospace; font-size: 180%; }$/;"	i
-#main h2 a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
-#main h3	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1, #main h2, #main h3, #main h4 { color: #e05030; margin: 2ex 0 1ex 0; }$/;"	i
-#main h3 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h3 { font-family: "Lucida Console", Monaco, monospace; font-size: 130%; }$/;"	i
-#main h3 a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
-#main h4 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1, #main h2, #main h3, #main h4 { color: #e05030; margin: 2ex 0 1ex 0; }$/;"	i
-#main h4 a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
-#main h5	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h5, #main h6 { display: run-in; margin: 2ex 1em 1ex 0; }$/;"	i
-#main h5 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h5 { color: #e05030; font-style: italic; }$/;"	i
-#main h5 a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
-#main h6 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h5, #main h6 { display: run-in; margin: 2ex 1em 1ex 0; }$/;"	i
-#main h6 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h6 { font-weight: bold; }$/;"	i
-#main h6 a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a { color: inherit; }$/;"	i
-#main hr 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main hr { background-color: #666666; width: 62%; height: 1px; border: none; margin: 4ex auto; }$/;"	i
-#main ol	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main p, #main ul, #main ol, #main dl { margin-top: 0.75ex; margin-bottom: 0.75ex; }$/;"	i
-#main ol 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ol { list-style: decimal; }$/;"	i
-#main ol 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul, #main ol { padding-left: 2em; }$/;"	i
-#main ol ol 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul ol, #main ol ol { list-style: lower-alpha; }$/;"	i
-#main p	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main p, #main ul, #main ol, #main dl { margin-top: 0.75ex; margin-bottom: 0.75ex; }$/;"	i
-#main p.left 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main p.right, #main p.left { width: 10em; margin: 0 2em; color: #aaaaaa; }$/;"	i
-#main p.left a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main p.right a, #main p.left a { color: #90afc8; }$/;"	i
-#main p.right	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main p.right, #main p.left { width: 10em; margin: 0 2em; color: #aaaaaa; }$/;"	i
-#main p.right a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main p.right a, #main p.left a { color: #90afc8; }$/;"	i
-#main pre 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main blockquote, #main pre { margin: 1ex 2em; padding: 1ex; }$/;"	i
-#main pre 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main pre { background-color: #dddddd; overflow-x: auto; border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; }$/;"	i
-#main sup 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main sup { vertical-align: baseline; position: relative; font-size: x-small; top: -1ex; }$/;"	i
-#main table 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main table { margin: 1ex auto; border-collapse: collapse; border-spacing: 0; caption-side: top; }$/;"	i
-#main table tbody 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main table tbody { vertical-align: top; }$/;"	i
-#main table td 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main table th, #main table td { padding: 0.75ex 0.75em; }$/;"	i
-#main table th	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main table th, #main table td { padding: 0.75ex 0.75em; }$/;"	i
-#main table thead tr 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main table thead tr { border-bottom: 1px solid #666666; vertical-align: bottom; }$/;"	i
-#main ul	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main p, #main ul, #main ol, #main dl { margin-top: 0.75ex; margin-bottom: 0.75ex; }$/;"	i
-#main ul	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul, #main ol { padding-left: 2em; }$/;"	i
-#main ul 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul { list-style: disc; }$/;"	i
-#main ul ol	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul ol, #main ol ol { list-style: lower-alpha; }$/;"	i
-#main ul.publications .award 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications .award { background-color: #ffffa0; padding: 0.2ex 0.4ex; margin: -0.2ex -0.4ex; border-radius: 0.5ex; -webkit-border-radius: 0.5ex; -moz-border-radius: 0.5ex; }$/;"	i
-#main ul.publications .notes 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications .notes { display: block; margin: 0.5ex 0; color: #666666; }$/;"	i
-#main ul.publications .title 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications .title { font-weight: bold; }$/;"	i
-#main ul.publications a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] a { color: #90afc8; }$/;"	i
-#main ul.publications a	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	i
-#main ul.publications li 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications li { margin-bottom: 1ex; }$/;"	i
-#menu 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#menu { margin: 1ex 0 -1.5ex 0; padding: 0 2em; background: white; border-top-left-radius: 0.5em; border-top-right-radius: 0.5em; }$/;"	i
-#menu .active 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#menu .active { padding-top: 0; border-top: 1ex solid #e05030; color: #e05030; }$/;"	i
-#menu a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#menu span, #menu a { display: inline-block; padding: 0.9ex 1ex 0.5ex 1ex; color: #888888; }$/;"	i
-#menu li 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#menu li { display: inline-block; margin: 0 0.5ex; }$/;"	i
-#menu span	staging/thecwlzone-2.0/stylesheets/screen.css	/^#menu span, #menu a { display: inline-block; padding: 0.9ex 1ex 0.5ex 1ex; color: #888888; }$/;"	i
-#menu ul 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#menu ul { display: block; list-style: none; margin: 0 -1.5ex; padding: 0; }$/;"	i
-#pagebottom 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#pagebottom { margin: 1em auto; font-size: smaller; text-align: center; opacity: 0.9; }$/;"	i
-#pagebottom #HyphenatorToggleBox 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#pagebottom #HyphenatorToggleBox { display: inline; }$/;"	i
-#pagebottom:hover 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#pagebottom:hover { opacity: 1; -webkit-transition-property: opacity; -webkit-transition-duration: 0.3s; }$/;"	i
-$.fn.randomize	content/scripts/slides.jquery.js	/^	$.fn.randomize = function(callback) {$/;"	f
-$.fn.randomize	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^	$.fn.randomize = function(callback) {$/;"	f
+$.fn.randomize	content/scripts/slides.jquery.js	/^	};$/;"	f
+$.fn.randomize	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^	};$/;"	f
 $.fn.randomize.randomizeOrder	content/scripts/slides.jquery.js	/^		function randomizeOrder() { return(Math.round(Math.random())-0.5); }$/;"	f
 $.fn.randomize.randomizeOrder	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		function randomizeOrder() { return(Math.round(Math.random())-0.5); }$/;"	f
-$.fn.slides.option.animationComplete	content/scripts/slides.jquery.js	/^		animationComplete: function(){}, \/\/ Function called at the completion of animation$/;"	m
-$.fn.slides.option.animationComplete	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		animationComplete: function(){}, \/\/ Function called at the completion of animation$/;"	m
-$.fn.slides.option.animationStart	content/scripts/slides.jquery.js	/^		animationStart: function(){}, \/\/ Function called at the start of animation$/;"	m
-$.fn.slides.option.animationStart	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		animationStart: function(){}, \/\/ Function called at the start of animation$/;"	m
-$.fn.slides.option.autoHeight	content/scripts/slides.jquery.js	/^		autoHeight: false, \/\/ boolean, Set to true to auto adjust height$/;"	p
-$.fn.slides.option.autoHeight	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		autoHeight: false, \/\/ boolean, Set to true to auto adjust height$/;"	p
-$.fn.slides.option.autoHeightSpeed	content/scripts/slides.jquery.js	/^		autoHeightSpeed: 350, \/\/ number, Set auto height animation time in milliseconds$/;"	p
-$.fn.slides.option.autoHeightSpeed	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		autoHeightSpeed: 350, \/\/ number, Set auto height animation time in milliseconds$/;"	p
-$.fn.slides.option.bigTarget	content/scripts/slides.jquery.js	/^		bigTarget: false, \/\/ boolean, Set to true and the whole slide will link to next slide on click$/;"	p
-$.fn.slides.option.bigTarget	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		bigTarget: false, \/\/ boolean, Set to true and the whole slide will link to next slide on click$/;"	p
-$.fn.slides.option.container	content/scripts/slides.jquery.js	/^		container: 'slides_container', \/\/ string, Class name for slides container. Default is "slides_container"$/;"	p
-$.fn.slides.option.container	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		container: 'slides_container', \/\/ string, Class name for slides container. Default is "slides_container"$/;"	p
-$.fn.slides.option.crossfade	content/scripts/slides.jquery.js	/^		crossfade: false, \/\/ boolean, Crossfade images in a image based slideshow$/;"	p
-$.fn.slides.option.crossfade	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		crossfade: false, \/\/ boolean, Crossfade images in a image based slideshow$/;"	p
-$.fn.slides.option.currentClass	content/scripts/slides.jquery.js	/^		currentClass: 'current', \/\/ string, Class name for current class$/;"	p
-$.fn.slides.option.currentClass	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		currentClass: 'current', \/\/ string, Class name for current class$/;"	p
-$.fn.slides.option.effect	content/scripts/slides.jquery.js	/^		effect: 'slide', \/\/ string, '[next\/prev], [pagination]', e.g. 'slide, fade' or simply 'fade' for both$/;"	p
-$.fn.slides.option.effect	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		effect: 'slide', \/\/ string, '[next\/prev], [pagination]', e.g. 'slide, fade' or simply 'fade' for both$/;"	p
-$.fn.slides.option.fadeEasing	content/scripts/slides.jquery.js	/^		fadeEasing: '', \/\/ string, must load jQuery's easing plugin before http:\/\/gsgd.co.uk\/sandbox\/jquery\/easing\/$/;"	p
-$.fn.slides.option.fadeEasing	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		fadeEasing: '', \/\/ string, must load jQuery's easing plugin before http:\/\/gsgd.co.uk\/sandbox\/jquery\/easing\/$/;"	p
-$.fn.slides.option.fadeSpeed	content/scripts/slides.jquery.js	/^		fadeSpeed: 350, \/\/ number, Set the speed of the fading animation in milliseconds$/;"	p
-$.fn.slides.option.fadeSpeed	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		fadeSpeed: 350, \/\/ number, Set the speed of the fading animation in milliseconds$/;"	p
-$.fn.slides.option.generateNextPrev	content/scripts/slides.jquery.js	/^		generateNextPrev: false, \/\/ boolean, Auto generate next\/prev buttons$/;"	p
-$.fn.slides.option.generateNextPrev	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		generateNextPrev: false, \/\/ boolean, Auto generate next\/prev buttons$/;"	p
-$.fn.slides.option.generatePagination	content/scripts/slides.jquery.js	/^		generatePagination: true, \/\/ boolean, Auto generate pagination$/;"	p
-$.fn.slides.option.generatePagination	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		generatePagination: true, \/\/ boolean, Auto generate pagination$/;"	p
-$.fn.slides.option.hoverPause	content/scripts/slides.jquery.js	/^		hoverPause: false, \/\/ boolean, Set to true and hovering over slideshow will pause it$/;"	p
-$.fn.slides.option.hoverPause	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		hoverPause: false, \/\/ boolean, Set to true and hovering over slideshow will pause it$/;"	p
-$.fn.slides.option.next	content/scripts/slides.jquery.js	/^		next: 'next', \/\/ string, Class name for next button$/;"	p
-$.fn.slides.option.next	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		next: 'next', \/\/ string, Class name for next button$/;"	p
-$.fn.slides.option.pagination	content/scripts/slides.jquery.js	/^		pagination: true, \/\/ boolean, If you're not using pagination you can set to false, but don't have to$/;"	p
-$.fn.slides.option.pagination	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		pagination: true, \/\/ boolean, If you're not using pagination you can set to false, but don't have to$/;"	p
-$.fn.slides.option.paginationClass	content/scripts/slides.jquery.js	/^		paginationClass: 'pagination', \/\/ string, Class name for pagination$/;"	p
-$.fn.slides.option.paginationClass	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		paginationClass: 'pagination', \/\/ string, Class name for pagination$/;"	p
-$.fn.slides.option.pause	content/scripts/slides.jquery.js	/^		pause: 0, \/\/ number, Pause slideshow on click of next\/prev or pagination. A positive number will set to true and be the time of pause in milliseconds$/;"	p
-$.fn.slides.option.pause	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		pause: 0, \/\/ number, Pause slideshow on click of next\/prev or pagination. A positive number will set to true and be the time of pause in milliseconds$/;"	p
-$.fn.slides.option.play	content/scripts/slides.jquery.js	/^		play: 0, \/\/ number, Autoplay slideshow, a positive number will set to true and be the time between slide animation in milliseconds$/;"	p
-$.fn.slides.option.play	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		play: 0, \/\/ number, Autoplay slideshow, a positive number will set to true and be the time between slide animation in milliseconds$/;"	p
-$.fn.slides.option.preload	content/scripts/slides.jquery.js	/^		preload: false, \/\/ boolean, Set true to preload images in an image based slideshow$/;"	p
-$.fn.slides.option.preload	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		preload: false, \/\/ boolean, Set true to preload images in an image based slideshow$/;"	p
-$.fn.slides.option.preloadImage	content/scripts/slides.jquery.js	/^		preloadImage: '\/img\/loading.gif', \/\/ string, Name and location of loading image for preloader. Default is "\/img\/loading.gif"$/;"	p
-$.fn.slides.option.preloadImage	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		preloadImage: '\/img\/loading.gif', \/\/ string, Name and location of loading image for preloader. Default is "\/img\/loading.gif"$/;"	p
-$.fn.slides.option.prependPagination	content/scripts/slides.jquery.js	/^		prependPagination: false, \/\/ boolean, prepend pagination$/;"	p
-$.fn.slides.option.prependPagination	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		prependPagination: false, \/\/ boolean, prepend pagination$/;"	p
-$.fn.slides.option.prev	content/scripts/slides.jquery.js	/^		prev: 'prev', \/\/ string, Class name for previous button$/;"	p
-$.fn.slides.option.prev	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		prev: 'prev', \/\/ string, Class name for previous button$/;"	p
-$.fn.slides.option.randomize	content/scripts/slides.jquery.js	/^		randomize: false, \/\/ boolean, Set to true to randomize slides$/;"	p
-$.fn.slides.option.randomize	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		randomize: false, \/\/ boolean, Set to true to randomize slides$/;"	p
-$.fn.slides.option.slideEasing	content/scripts/slides.jquery.js	/^		slideEasing: '', \/\/ string, must load jQuery's easing plugin before http:\/\/gsgd.co.uk\/sandbox\/jquery\/easing\/$/;"	p
-$.fn.slides.option.slideEasing	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		slideEasing: '', \/\/ string, must load jQuery's easing plugin before http:\/\/gsgd.co.uk\/sandbox\/jquery\/easing\/$/;"	p
-$.fn.slides.option.slideSpeed	content/scripts/slides.jquery.js	/^		slideSpeed: 350, \/\/ number, Set the speed of the sliding animation in milliseconds$/;"	p
-$.fn.slides.option.slideSpeed	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		slideSpeed: 350, \/\/ number, Set the speed of the sliding animation in milliseconds$/;"	p
-$.fn.slides.option.slidesLoaded	content/scripts/slides.jquery.js	/^		slidesLoaded: function() {} \/\/ Function is called when slides is fully loaded$/;"	m
-$.fn.slides.option.slidesLoaded	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		slidesLoaded: function() {} \/\/ Function is called when slides is fully loaded$/;"	m
-$.fn.slides.option.start	content/scripts/slides.jquery.js	/^		start: 1, \/\/ number, Set the speed of the sliding animation in milliseconds$/;"	p
-$.fn.slides.option.start	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		start: 1, \/\/ number, Set the speed of the sliding animation in milliseconds$/;"	p
-.clear 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.clear { clear: both; height: 0; }$/;"	c
-.footnotes	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes, #footnotebubble { font-size: smaller; }$/;"	c
-.footnotes 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes { margin-top: 3em; }$/;"	c
-.footnotes a	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes a[rev="footnote"], #footnotebubble a[rev="footnote"] { padding-left: 1em; }$/;"	c
-.footnotes hr	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes hr, #footnotebubble hr { width: 50%; margin-left: 0; }$/;"	c
-.footnotes p	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes p, #footnotebubble p { display: inline; }$/;"	c
-.hide 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.hide { display: none; }$/;"	c
-.light 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.light { font-size: smaller; opacity: 0.7; }$/;"	c
-.permalink 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.permalink { margin-top: 1ex; margin-right: 1em; }$/;"	c
-.right img 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.right img { margin: 0; }$/;"	c
-.slides_container 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.slides_container { display: none; }$/;"	c
-.slides_container .slide 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.slides_container .slide { margin: 0 !important; padding: 0 !important; display: block; }$/;"	c
-.todo 	staging/thecwlzone-2.0/stylesheets/screen.css	/^.todo { background-color: #ffffa0; padding: 0.2ex 0.4ex; margin: -0.2ex -0.4ex; border-radius: 0.5ex; -webkit-border-radius: 0.5ex; -moz-border-radius: 0.5ex; white-space: pre-line; }$/;"	c
+$.fn.slides.option.animationComplete	content/scripts/slides.jquery.js	/^		animationStart: function(){}, \/\/ Function called at the start of animation$/;"	m
+$.fn.slides.option.animationComplete	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		animationStart: function(){}, \/\/ Function called at the start of animation$/;"	m
+$.fn.slides.option.animationStart	content/scripts/slides.jquery.js	/^		bigTarget: false, \/\/ boolean, Set to true and the whole slide will link to next slide on click$/;"	m
+$.fn.slides.option.animationStart	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		bigTarget: false, \/\/ boolean, Set to true and the whole slide will link to next slide on click$/;"	m
+$.fn.slides.option.autoHeight	content/scripts/slides.jquery.js	/^		hoverPause: false, \/\/ boolean, Set to true and hovering over slideshow will pause it$/;"	p
+$.fn.slides.option.autoHeight	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		hoverPause: false, \/\/ boolean, Set to true and hovering over slideshow will pause it$/;"	p
+$.fn.slides.option.autoHeightSpeed	content/scripts/slides.jquery.js	/^		autoHeight: false, \/\/ boolean, Set to true to auto adjust height$/;"	p
+$.fn.slides.option.autoHeightSpeed	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		autoHeight: false, \/\/ boolean, Set to true to auto adjust height$/;"	p
+$.fn.slides.option.bigTarget	content/scripts/slides.jquery.js	/^		autoHeightSpeed: 350, \/\/ number, Set auto height animation time in milliseconds$/;"	p
+$.fn.slides.option.bigTarget	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		autoHeightSpeed: 350, \/\/ number, Set auto height animation time in milliseconds$/;"	p
+$.fn.slides.option.container	content/scripts/slides.jquery.js	/^		preloadImage: '\/img\/loading.gif', \/\/ string, Name and location of loading image for preloader. Default is "\/img\/loading.gif"$/;"	p
+$.fn.slides.option.container	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		preloadImage: '\/img\/loading.gif', \/\/ string, Name and location of loading image for preloader. Default is "\/img\/loading.gif"$/;"	p
+$.fn.slides.option.crossfade	content/scripts/slides.jquery.js	/^		effect: 'slide', \/\/ string, '[next\/prev], [pagination]', e.g. 'slide, fade' or simply 'fade' for both$/;"	p
+$.fn.slides.option.crossfade	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		effect: 'slide', \/\/ string, '[next\/prev], [pagination]', e.g. 'slide, fade' or simply 'fade' for both$/;"	p
+$.fn.slides.option.currentClass	content/scripts/slides.jquery.js	/^		paginationClass: 'pagination', \/\/ string, Class name for pagination$/;"	p
+$.fn.slides.option.currentClass	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		paginationClass: 'pagination', \/\/ string, Class name for pagination$/;"	p
+$.fn.slides.option.effect	content/scripts/slides.jquery.js	/^		start: 1, \/\/ number, Set the speed of the sliding animation in milliseconds$/;"	p
+$.fn.slides.option.effect	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		start: 1, \/\/ number, Set the speed of the sliding animation in milliseconds$/;"	p
+$.fn.slides.option.fadeEasing	content/scripts/slides.jquery.js	/^		fadeSpeed: 350, \/\/ number, Set the speed of the fading animation in milliseconds$/;"	p
+$.fn.slides.option.fadeEasing	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		fadeSpeed: 350, \/\/ number, Set the speed of the fading animation in milliseconds$/;"	p
+$.fn.slides.option.fadeSpeed	content/scripts/slides.jquery.js	/^		currentClass: 'current', \/\/ string, Class name for current class$/;"	p
+$.fn.slides.option.fadeSpeed	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		currentClass: 'current', \/\/ string, Class name for current class$/;"	p
+$.fn.slides.option.generateNextPrev	content/scripts/slides.jquery.js	/^		container: 'slides_container', \/\/ string, Class name for slides container. Default is "slides_container"$/;"	p
+$.fn.slides.option.generateNextPrev	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		container: 'slides_container', \/\/ string, Class name for slides container. Default is "slides_container"$/;"	p
+$.fn.slides.option.generatePagination	content/scripts/slides.jquery.js	/^		pagination: true, \/\/ boolean, If you're not using pagination you can set to false, but don't have to$/;"	p
+$.fn.slides.option.generatePagination	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		pagination: true, \/\/ boolean, If you're not using pagination you can set to false, but don't have to$/;"	p
+$.fn.slides.option.hoverPause	content/scripts/slides.jquery.js	/^		pause: 0, \/\/ number, Pause slideshow on click of next\/prev or pagination. A positive number will set to true and be the time of pause in milliseconds$/;"	p
+$.fn.slides.option.hoverPause	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		pause: 0, \/\/ number, Pause slideshow on click of next\/prev or pagination. A positive number will set to true and be the time of pause in milliseconds$/;"	p
+$.fn.slides.option.next	content/scripts/slides.jquery.js	/^		generateNextPrev: false, \/\/ boolean, Auto generate next\/prev buttons$/;"	p
+$.fn.slides.option.next	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		generateNextPrev: false, \/\/ boolean, Auto generate next\/prev buttons$/;"	p
+$.fn.slides.option.pagination	content/scripts/slides.jquery.js	/^		prev: 'prev', \/\/ string, Class name for previous button$/;"	p
+$.fn.slides.option.pagination	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		prev: 'prev', \/\/ string, Class name for previous button$/;"	p
+$.fn.slides.option.paginationClass	content/scripts/slides.jquery.js	/^		prependPagination: false, \/\/ boolean, prepend pagination$/;"	p
+$.fn.slides.option.paginationClass	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		prependPagination: false, \/\/ boolean, prepend pagination$/;"	p
+$.fn.slides.option.pause	content/scripts/slides.jquery.js	/^		play: 0, \/\/ number, Autoplay slideshow, a positive number will set to true and be the time between slide animation in milliseconds$/;"	p
+$.fn.slides.option.pause	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		play: 0, \/\/ number, Autoplay slideshow, a positive number will set to true and be the time between slide animation in milliseconds$/;"	p
+$.fn.slides.option.play	content/scripts/slides.jquery.js	/^		randomize: false, \/\/ boolean, Set to true to randomize slides$/;"	p
+$.fn.slides.option.play	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		randomize: false, \/\/ boolean, Set to true to randomize slides$/;"	p
+$.fn.slides.option.preload	content/scripts/slides.jquery.js	/^	$.fn.slides.option = {$/;"	p
+$.fn.slides.option.preload	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^	$.fn.slides.option = {$/;"	p
+$.fn.slides.option.preloadImage	content/scripts/slides.jquery.js	/^		preload: false, \/\/ boolean, Set true to preload images in an image based slideshow$/;"	p
+$.fn.slides.option.preloadImage	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		preload: false, \/\/ boolean, Set true to preload images in an image based slideshow$/;"	p
+$.fn.slides.option.prependPagination	content/scripts/slides.jquery.js	/^		generatePagination: true, \/\/ boolean, Auto generate pagination$/;"	p
+$.fn.slides.option.prependPagination	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		generatePagination: true, \/\/ boolean, Auto generate pagination$/;"	p
+$.fn.slides.option.prev	content/scripts/slides.jquery.js	/^		next: 'next', \/\/ string, Class name for next button$/;"	p
+$.fn.slides.option.prev	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		next: 'next', \/\/ string, Class name for next button$/;"	p
+$.fn.slides.option.randomize	content/scripts/slides.jquery.js	/^		crossfade: false, \/\/ boolean, Crossfade images in a image based slideshow$/;"	p
+$.fn.slides.option.randomize	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		crossfade: false, \/\/ boolean, Crossfade images in a image based slideshow$/;"	p
+$.fn.slides.option.slideEasing	content/scripts/slides.jquery.js	/^		slideSpeed: 350, \/\/ number, Set the speed of the sliding animation in milliseconds$/;"	p
+$.fn.slides.option.slideEasing	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		slideSpeed: 350, \/\/ number, Set the speed of the sliding animation in milliseconds$/;"	p
+$.fn.slides.option.slideSpeed	content/scripts/slides.jquery.js	/^		fadeEasing: '', \/\/ string, must load jQuery's easing plugin before http:\/\/gsgd.co.uk\/sandbox\/jquery\/easing\/$/;"	p
+$.fn.slides.option.slideSpeed	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		fadeEasing: '', \/\/ string, must load jQuery's easing plugin before http:\/\/gsgd.co.uk\/sandbox\/jquery\/easing\/$/;"	p
+$.fn.slides.option.slidesLoaded	content/scripts/slides.jquery.js	/^		animationComplete: function(){}, \/\/ Function called at the completion of animation$/;"	m
+$.fn.slides.option.slidesLoaded	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		animationComplete: function(){}, \/\/ Function called at the completion of animation$/;"	m
+$.fn.slides.option.start	content/scripts/slides.jquery.js	/^		slideEasing: '', \/\/ string, must load jQuery's easing plugin before http:\/\/gsgd.co.uk\/sandbox\/jquery\/easing\/$/;"	p
+$.fn.slides.option.start	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^		slideEasing: '', \/\/ string, must load jQuery's easing plugin before http:\/\/gsgd.co.uk\/sandbox\/jquery\/easing\/$/;"	p
 Blogging	lib/helpers/blogging.rb	/^module Blogging$/;"	m
 ByExtension	lib/filters/by_extension_filter.rb	/^class ByExtension < Nanoc::Filter$/;"	c
 Capturing	lib/helpers/capturing.rb	/^module Capturing$/;"	m
@@ -177,14 +74,14 @@ EntityEncoding	lib/helpers/entity_encoding.rb	/^module EntityEncoding$/;"	m
 External	lib/filters/external.rb	/^class External < Nanoc::Filter$/;"	c
 Feed	lib/helpers/blogging.rb	/^  class Feed$/;"	c	class:Blogging
 GitPush	lib/deployers/git_push.rb	/^class GitPush < Nanoc::Extra::Deployer$/;"	c
-Hyphenator.languages.leftmin	content/scripts/hyphenator.js	/^	leftmin : 2,$/;"	p
-Hyphenator.languages.leftmin	staging/thecwlzone-2.0/scripts/hyphenator.js	/^	leftmin : 2,$/;"	p
-Hyphenator.languages.patterns	content/scripts/hyphenator.js	/^	patterns : {$/;"	p
-Hyphenator.languages.patterns	staging/thecwlzone-2.0/scripts/hyphenator.js	/^	patterns : {$/;"	p
-Hyphenator.languages.rightmin	content/scripts/hyphenator.js	/^	rightmin : 3,$/;"	p
-Hyphenator.languages.rightmin	staging/thecwlzone-2.0/scripts/hyphenator.js	/^	rightmin : 3,$/;"	p
-Hyphenator.languages.specialChars	content/scripts/hyphenator.js	/^	specialChars : "àâçèéêîïôûœ’'",$/;"	p
-Hyphenator.languages.specialChars	staging/thecwlzone-2.0/scripts/hyphenator.js	/^	specialChars : "àâçèéêîïôûœ’'",$/;"	p
+Hyphenator.languages.leftmin	content/scripts/hyphenator.js	/^Hyphenator.languages['fr'] = {$/;"	p
+Hyphenator.languages.leftmin	staging/thecwlzone-2.0/scripts/hyphenator.js	/^Hyphenator.languages['fr'] = {$/;"	p
+Hyphenator.languages.patterns	content/scripts/hyphenator.js	/^	specialChars : "àâçèéêîïôûœ’'",$/;"	p
+Hyphenator.languages.patterns	staging/thecwlzone-2.0/scripts/hyphenator.js	/^	specialChars : "àâçèéêîïôûœ’'",$/;"	p
+Hyphenator.languages.rightmin	content/scripts/hyphenator.js	/^	leftmin : 2,$/;"	p
+Hyphenator.languages.rightmin	staging/thecwlzone-2.0/scripts/hyphenator.js	/^	leftmin : 2,$/;"	p
+Hyphenator.languages.specialChars	content/scripts/hyphenator.js	/^	rightmin : 3,$/;"	p
+Hyphenator.languages.specialChars	staging/thecwlzone-2.0/scripts/hyphenator.js	/^	rightmin : 3,$/;"	p
 Konami	content/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	f
 Konami	staging/thecwlzone-2.0/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	f
 Konami.a.addEvent	content/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	m
@@ -194,9 +91,6 @@ Nanoc	lib/default.rb	/^class Nanoc::Item$/;"	c
 Nanoc	lib/default.rb	/^module Nanoc::CLI$/;"	m
 Nanoc	lib/helpers/blogging.rb	/^  class Nanoc::Item$/;"	c	class:Blogging
 TaggingExtra	lib/helpers/tagging_extra.rb	/^module TaggingExtra$/;"	m
-UTF-8	staging/thecwlzone-2.0/stylesheets/screen.css	/^@charset "UTF-8";$/;"	s
-a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] a { color: #90afc8; }$/;"	s
-a 	staging/thecwlzone-2.0/stylesheets/screen.css	/^a { color: #1d3d35; text-decoration: none; }$/;"	s
 a.check_direction	content/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	m
 a.check_direction	staging/thecwlzone-2.0/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	m
 a.input	content/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	p
@@ -205,117 +99,87 @@ a.load	content/scripts/konami.js	/^var Konami=function(){var a={addEvent:functio
 a.load	staging/thecwlzone-2.0/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	m
 a.pattern	content/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	p
 a.pattern	staging/thecwlzone-2.0/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	p
-a:hover 	staging/thecwlzone-2.0/stylesheets/screen.css	/^a:hover { text-decoration: underline; }$/;"	s
-abbr	staging/thecwlzone-2.0/stylesheets/screen.css	/^abbr, acronym { border: 0; display: inherit; }$/;"	s
-acronym 	staging/thecwlzone-2.0/stylesheets/screen.css	/^abbr, acronym { border: 0; display: inherit; }$/;"	s
-address	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
+about.html	content/about.html	1;"	F
 all_feeds	lib/helpers/blogging.rb	/^  def all_feeds$/;"	f	class:Blogging
 ancestor_link_unless_current	lib/default.rb	/^def ancestor_link_unless_current(title, destination)$/;"	f
 ancestor_of?	lib/default.rb	/^  def ancestor_of?(item)$/;"	f	class:Nanoc
-appear 	content/stylesheets/animations.css	/^@-webkit-keyframes appear {$/;"	s
-appear 	staging/thecwlzone-2.0/stylesheets/animations.css	/^@-webkit-keyframes appear {$/;"	s
 apply_yaml_hacks	commands/new-note.rb	/^    def apply_yaml_hacks$/;"	f
 archive_item	lib/helpers/blogging.rb	/^    def archive_item$/;"	f	class:Blogging.Feed
 article_image	lib/helpers/blogging.rb	/^  def article_image(item)$/;"	f	class:Blogging
-blockquote	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-body	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-body 	staging/thecwlzone-2.0/stylesheets/screen.css	/^body { margin: 1em; font-family: "Lucida Console", Monaco, monospace; line-height: 1.3; }$/;"	s
-caption	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
-caption	staging/thecwlzone-2.0/stylesheets/screen.css	/^caption, th { text-align: left; }$/;"	s
+blogging.rb	lib/helpers/blogging.rb	1;"	F
+by_extension_filter.rb	lib/filters/by_extension_filter.rb	1;"	F
+capturing.rb	lib/helpers/capturing.rb	1;"	F
 chain_entries	lib/helpers/blogging.rb	/^    def chain_entries$/;"	f	class:Blogging.Feed
 check_available_identifier	commands/new-note.rb	/^    def check_available_identifier candidate$/;"	f
-cite	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
+checks.rb	checks.rb	1;"	F
 classification_item	lib/helpers/blogging.rb	/^    def classification_item(contents, mtime, options, args={})$/;"	f	class:Blogging.Feed
 classified_entries	lib/helpers/blogging.rb	/^    def classified_entries(reverse=true, &block)$/;"	f	class:Blogging.Feed
 clear	lib/helpers.rb	/^def clear$/;"	f
-clear: left	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-code	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
-color: #aaaaaa	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
+closure_compiler.rb	lib/filters/closure_compiler.rb	1;"	F
 content	commands/new-note.rb	/^    def content$/;"	f
 count_tags	lib/helpers/tagging_extra.rb	/^  def count_tags(items=nil)$/;"	f	class:TaggingExtra
 create_sitemap	lib/helpers/sitemap.rb	/^def create_sitemap$/;"	f
 create_tag_pages	lib/helpers/tagging_extra.rb	/^  def create_tag_pages(partial, title_prefix, identifier_prefix)$/;"	f	class:TaggingExtra
-dd	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-dfn	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
-div	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
+default.rb	lib/default.rb	1;"	F
 divOver	content/scripts/footnotes.js	/^    function divOver() {$/;"	f
 divOver	staging/thecwlzone-2.0/scripts/footnotes.js	/^    function divOver() {$/;"	f
-dl	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-dt	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 e	content/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	f
 e	staging/thecwlzone-2.0/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	f
-em	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
-em 	staging/thecwlzone-2.0/stylesheets/screen.css	/^em { font: inherit; font-style: italic; }$/;"	s
 entity_encode	lib/helpers/entity_encoding.rb	/^  def entity_encode(string=nil, &block)$/;"	f	class:EntityEncoding
+entity_encoding.rb	lib/helpers/entity_encoding.rb	1;"	F
 entries	lib/helpers/blogging.rb	/^    def entries$/;"	f	class:Blogging.Feed
 entries_by_year	lib/helpers/blogging.rb	/^    def entries_by_year$/;"	f	class:Blogging.Feed
 excerpt	lib/helpers/capturing.rb	/^  def excerpt(name, &block)$/;"	f	class:Capturing
 extension	lib/default.rb	/^def extension(ext=nil, opts={})$/;"	f
+external.rb	lib/filters/external.rb	1;"	F
 feed?	lib/helpers/blogging.rb	/^    def feed?$/;"	f	class:Blogging.Nanoc
 feed_named	lib/helpers/blogging.rb	/^  def feed_named(id)$/;"	f	class:Blogging
-fieldset	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-fieldset	staging/thecwlzone-2.0/stylesheets/screen.css	/^fieldset, img { border: 0; }$/;"	s
-float: left	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-fn.slides	content/scripts/slides.jquery.js	/^(function($){$/;"	f
-fn.slides	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^(function($){$/;"	f
-footnote	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes a[rev="footnote"], #footnotebubble a[rev="footnote"] { padding-left: 1em; }$/;"	s
+fn.slides	content/scripts/slides.jquery.js	/^\/*$/;"	f
+fn.slides	staging/thecwlzone-2.0/scripts/slides.jquery.js	/^\/*$/;"	f
 footnoteOut	content/scripts/footnotes.js	/^    function footnoteOut() {$/;"	f
 footnoteOut	staging/thecwlzone-2.0/scripts/footnotes.js	/^    function footnoteOut() {$/;"	f
 footnoteOver	content/scripts/footnotes.js	/^    function footnoteOver() {$/;"	f
 footnoteOver	staging/thecwlzone-2.0/scripts/footnotes.js	/^    function footnoteOver() {$/;"	f
-form	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
+footnotes.js	content/scripts/footnotes.js	1;"	F
+footnotes.js	staging/thecwlzone-2.0/scripts/footnotes.js	1;"	F
 generate	lib/helpers/blogging.rb	/^    def generate$/;"	f	class:Blogging.Feed
-h1	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-h1	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }$/;"	s
-h2	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-h2	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }$/;"	s
-h3	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-h3	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }$/;"	s
-h4	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-h4	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }$/;"	s
-h5	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-h5	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }$/;"	s
-h6	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-h6 	staging/thecwlzone-2.0/stylesheets/screen.css	/^h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }$/;"	s
+git_push.rb	lib/deployers/git_push.rb	1;"	F
 has_tag?	lib/helpers/tagging_extra.rb	/^  def has_tag?(item, tag)$/;"	f	class:TaggingExtra
 head_content	lib/helpers/head_content.rb	/^def head_content$/;"	f
+head_content.rb	lib/helpers/head_content.rb	1;"	F
+helpers.rb	lib/helpers.rb	1;"	F
 hide_items	lib/helpers/sitemap.rb	/^def hide_items$/;"	f
-html 	staging/thecwlzone-2.0/stylesheets/screen.css	/^html { min-height: 100%; font-size: 90%; background-color: #5c85d6; background: -webkit-gradient(linear, left top, 50 400, from(#50b482), to(#5c85d6)); background: -moz-linear-gradient(-70deg, #50b482, #5c85d6); }$/;"	s
+hyphenator.js	content/scripts/hyphenator.js	1;"	F
+hyphenator.js	staging/thecwlzone-2.0/scripts/hyphenator.js	1;"	F
 identifier	commands/new-note.rb	/^    def identifier$/;"	f
 img	lib/helpers.rb	/^def img(item=nil, attributes={})$/;"	f
-img 	staging/thecwlzone-2.0/stylesheets/screen.css	/^fieldset, img { border: 0; }$/;"	s
-img 	staging/thecwlzone-2.0/stylesheets/screen.css	/^img { margin: 1ex; }$/;"	s
-important	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
+index.html	staging/thecwlzone-2.0/about/index.html	1;"	F
+index.html	staging/thecwlzone-2.0/contact/index.html	1;"	F
+index.html	staging/thecwlzone-2.0/curriculum/index.html	1;"	F
+index.html	staging/thecwlzone-2.0/index.html	1;"	F
+index.html	staging/thecwlzone-2.0/publications/index.html	1;"	F
+index.html	staging/thecwlzone-2.0/research/index.html	1;"	F
 info	lib/default.rb	/^def info(key, item=nil)$/;"	f
 initialize	lib/helpers/blogging.rb	/^    def initialize(site, root)$/;"	f	class:Blogging.Feed
-input	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
 is_root?	lib/default.rb	/^  def is_root?()  self.identifier == '\/'  end$/;"	f	class:Nanoc
 item_named	lib/default.rb	/^def item_named(id)$/;"	f
 items_by_identifier	lib/default.rb	/^def items_by_identifier(pattern)$/;"	f
 items_with_tag	lib/helpers/tagging_extra.rb	/^  def items_with_tag(tag, items=nil)$/;"	f	class:TaggingExtra
-li	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
+jquery.easing.1.3.js	content/scripts/jquery.easing.1.3.js	1;"	F
+jquery.easing.1.3.js	staging/thecwlzone-2.0/scripts/jquery.easing.1.3.js	1;"	F
+konami.js	content/scripts/konami.js	1;"	F
+konami.js	staging/thecwlzone-2.0/scripts/konami.js	1;"	F
 mailto	lib/helpers/entity_encoding.rb	/^  def mailto(email, subject=nil, text=nil, attributes = {})$/;"	f	class:EntityEncoding
-margin-left: -12.5em 	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-margin-right: 1em	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-margin: 0 2em	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
 menu_items	lib/default.rb	/^def menu_items$/;"	f
 menu_link	lib/default.rb	/^def menu_link(item)$/;"	f
 metadata	commands/new-note.rb	/^    def metadata$/;"	f
 mtime	lib/helpers/blogging.rb	/^    def mtime(items=nil)$/;"	f	class:Blogging.Feed
-name	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] a { color: #90afc8; }$/;"	s
-name	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-ol	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-ol	staging/thecwlzone-2.0/stylesheets/screen.css	/^ol, ul { list-style: none; }$/;"	s
-p	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-padding-left: 1em	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes a[rev="footnote"], #footnotebubble a[rev="footnote"] { padding-left: 1em; }$/;"	s
+new-note.rb	commands/new-note.rb	1;"	F
 phone	lib/helpers.rb	/^def phone(main, opts={})$/;"	f
-pre	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-pulse 	content/stylesheets/animations.css	/^@-webkit-keyframes pulse {$/;"	s
-pulse 	staging/thecwlzone-2.0/stylesheets/animations.css	/^@-webkit-keyframes pulse {$/;"	s
-q:after 	staging/thecwlzone-2.0/stylesheets/screen.css	/^q:after { content: ”; }$/;"	s
-q:before 	staging/thecwlzone-2.0/stylesheets/screen.css	/^q:before { content: “; }$/;"	s
+publish.rb	commands/publish.rb	1;"	F
+push.rb	commands/push.rb	1;"	F
 rank_tags	lib/helpers/tagging_extra.rb	/^  def rank_tags(n, items=nil) $/;"	f	class:TaggingExtra
-rev	staging/thecwlzone-2.0/stylesheets/screen.css	/^.footnotes a[rev="footnote"], #footnotebubble a[rev="footnote"] { padding-left: 1em; }$/;"	s
+rules.rb	rules.rb	1;"	F
 run	commands/new-note.rb	/^    def run$/;"	f	class:Commands.CreatePost
 run	lib/deployers/git_push.rb	/^  def run$/;"	f	class:GitPush
 run	lib/filters/by_extension_filter.rb	/^    def run(content, params={})$/;"	f	class:ByExtension
@@ -323,28 +187,11 @@ run	lib/filters/closure_compiler.rb	/^  def run(content, params={})$/;"	f	class:
 run	lib/filters/external.rb	/^  def run(content, params={})$/;"	f	class:External
 set_info	lib/helpers/blogging.rb	/^    def set_info$/;"	f	class:Blogging.Feed
 setup_notification	commands/new-note.rb	/^    def setup_notification$/;"	f
-slide-in 	content/stylesheets/animations.css	/^@-webkit-keyframes slide-in {$/;"	s
-slide-in 	staging/thecwlzone-2.0/stylesheets/animations.css	/^@-webkit-keyframes slide-in {$/;"	s
+sitemap.rb	lib/helpers/sitemap.rb	1;"	F
+slides.jquery.js	content/scripts/slides.jquery.js	1;"	F
+slides.jquery.js	staging/thecwlzone-2.0/scripts/slides.jquery.js	1;"	F
 sluggify	commands/new-note.rb	/^    def sluggify str$/;"	f
-strong	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
-strong 	staging/thecwlzone-2.0/stylesheets/screen.css	/^strong { font-weight: bold; }$/;"	s
-strong.marker 	staging/thecwlzone-2.0/stylesheets/screen.css	/^strong.marker { background-color: #ffffa0; padding: 0.2ex 0.4ex; margin: -0.2ex -0.4ex; border-radius: 0.5ex; -webkit-border-radius: 0.5ex; -moz-border-radius: 0.5ex; }$/;"	s
-table 	staging/thecwlzone-2.0/stylesheets/screen.css	/^table { border-collapse: collapse; border-spacing: 0; }$/;"	s
 tag_item	lib/helpers/blogging.rb	/^    def tag_item$/;"	f	class:Blogging.Feed
 tag_set	lib/helpers/tagging_extra.rb	/^  def tag_set(items=nil)$/;"	f	class:TaggingExtra
-td 	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-text-align: right	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-textarea	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-th	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
-th	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-th 	staging/thecwlzone-2.0/stylesheets/screen.css	/^caption, th { text-align: left; }$/;"	s
-to 	content/stylesheets/animations.css	/^  to {  opacity: 0.7;  }$/;"	s
-to 	content/stylesheets/animations.css	/^  to {}$/;"	s
-to 	staging/thecwlzone-2.0/stylesheets/animations.css	/^  to {  opacity: 0.7;  }$/;"	s
-to 	staging/thecwlzone-2.0/stylesheets/animations.css	/^  to {}$/;"	s
-ul	staging/thecwlzone-2.0/stylesheets/screen.css	/^body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }$/;"	s
-ul 	staging/thecwlzone-2.0/stylesheets/screen.css	/^ol, ul { list-style: none; }$/;"	s
-var 	staging/thecwlzone-2.0/stylesheets/screen.css	/^address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }$/;"	s
-visibility: hidden	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
-width: 10em	staging/thecwlzone-2.0/stylesheets/screen.css	/^#main ul.publications a[name] { width: 10em; margin: 0 2em; color: #aaaaaa; clear: left; float: left; margin-left: -12.5em !important; margin-right: 1em; text-align: right; visibility: hidden; }$/;"	s
+tagging_extra.rb	lib/helpers/tagging_extra.rb	1;"	F
 yearly_archive_items	lib/helpers/blogging.rb	/^    def yearly_archive_items$/;"	f	class:Blogging.Feed

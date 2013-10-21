@@ -21,8 +21,6 @@ I hold a BS in Electrical Engineering and a Doctorate of Computer Science.
 
 ## [Contact Info](/contact/)
 
-See my [detailed contact page](/contact/) for more info and the [access map](/contact/#map) to my office.
-
 <%= render 'partials/contact_info' %>
 
 <div class="banner">
