@@ -9,12 +9,14 @@ menu_title: Home
   <% end %>
 <% end %>
 
+## Welcome
+
 Hello, Welcome to my web site.
 
 ##### My Latest Gig
-I am a Senior Engineer with Comcast's National Engineering and Technical Operations organization (NETO). Within NETO's vast hierarchy of functions exists the Applications Management Tools Team consisting of seven Developers (including myself), a Manager and a Business Analyst. We're building internal Configuration Management Database systems that track Application and Device Configuration and Topology for the 2000+ Applications and 200K+ Devices that are used within NETO.
+I am a Senior Engineer with Comcast's National Engineering and Technical Operations organization (NETO). Within NETO's vast hierarchy of functions exists the Applications Management Tools Team consisting of seven Developers (including myself), a Manager and a Business Analyst. We're building internal Configuration Management Database systems that track Application and Device Configuration and Topology information for the 2000+ Applications and 200K+ Devices that are used within NETO.
 
-Our development stack includes Ruby on Rails 3.2. We use Chef, Unicorn and Capistrano to configure and run our servers. Front-end technology includes jQuery and Twitter Bootstrap, and our backend databases are MySQL and Oracle. We do a *lot* of API work as we talk to over a dozen diverse databases within the NETO community. Version control of the Rails code base is handled by Git and Bamboo.
+Our development stack includes [Ruby on Rails][Rails] 3.2. We use [Chef][Chef], [Unicorn][Unicorn] and [Capistrano][Capistrano] to configure and run our servers. Front-end technology includes [jQuery][jQuery] and [Twitter Bootstrap][TwitterBootstrap], and our backend databases are [MySQL][MySQL] and [Oracle][Oracle]. We do a *lot* of API work as we talk to over a dozen diverse databases within the NETO community. Version control of the Rails code base is handled by [Git][Git] and [Bamboo][Bamboo].
 
 We are very much a [DevOps][DevOps] team, and we use a slightly modified [Rally Software][Rally] ALM platform to support a [ScrumBan][ScrumBan] [Agile][Agile] methodology. We release new code on a two week iteration cycle.
 
