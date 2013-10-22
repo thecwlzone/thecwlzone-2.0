@@ -41,11 +41,12 @@ default_info:
   author: *ME
   analytics:
   site_lang: en
-  header_title: *ME
+  header_title: The CWL Zone
   header_url: /
   header_slogan: >
-    Senior Engineer, Comcast National Engineering and Technical Operations
-    <a href="http://www.comcast.com">Comcast</a><br/>
+    <h1>Christopher W Lehman</h1><br />
+    Senior Engineer, <a href="http://www.comcast.com">Comcast</a> National Engineering and Technical Operations<br />
+    Owner and Operator of <a href="http://www.thecwlzone.com">TheCWLZone.com</a><br />
     <em>Ruby and Rails Developer</em>
   description: >
     Website of Christopher W Lehman DCS

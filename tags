@@ -100,6 +100,7 @@ a.load	staging/thecwlzone-2.0/scripts/konami.js	/^var Konami=function(){var a={a
 a.pattern	content/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	p
 a.pattern	staging/thecwlzone-2.0/scripts/konami.js	/^var Konami=function(){var a={addEvent:function(e,c,b,d){if(e.addEventListener){e.addEventListener(c,b,false)}else{if(e.attachEvent){e["e"+c+b]=b;e[c+b]=function(){e["e"+c+b](window.event,d)};e.attachEvent("on"+c,e[c+b])}}},input:"",pattern:"3838404037393739666513",load:function(b){this.addEvent(document,"keydown",function(d,c){if(c){a=c}a.input+=d?d.keyCode:event.keyCode;if(a.input.indexOf(a.pattern)!=-1){a.code(b);a.input="";return}},this);this.iphone.load(b)},code:function(b){window.location=b},iphone:{start_x:0,start_y:0,stop_x:0,stop_y:0,tap:false,capture:false,keys:["UP","UP","DOWN","DOWN","LEFT","RIGHT","LEFT","RIGHT","TAP","TAP","TAP"],code:function(b){window.location=b},load:function(b){a.addEvent(document,"touchmove",function(c){if(c.touches.length==1&&a.iphone.capture==true){var d=c.touches[0];a.iphone.stop_x=d.pageX;a.iphone.stop_y=d.pageY;a.iphone.tap=false;a.iphone.capture=false;a.iphone.check_direction()}});a.addEvent(document,"touchend",function(c){if(a.iphone.tap==true){a.iphone.check_direction()}},false);a.addEvent(document,"touchstart",function(c){a.iphone.start_x=c.changedTouches[0].pageX;a.iphone.start_y=c.changedTouches[0].pageY;a.iphone.tap=true;a.iphone.capture=true})},check_direction:function(){x_magnitude=Math.abs(this.start_x-this.stop_x);y_magnitude=Math.abs(this.start_y-this.stop_y);x=((this.start_x-this.stop_x)<0)?"RIGHT":"LEFT";y=((this.start_y-this.stop_y)<0)?"DOWN":"UP";result=(x_magnitude>y_magnitude)?x:y;result=(this.tap==true)?"TAP":result;if(result==this.keys[0]){this.keys=this.keys.slice(1,this.keys.length)}if(this.keys.length==0){this.code(this.link)}}}};return a};/;"	p
 about.html	content/about.html	1;"	F
+academic.html	content/academic.html	1;"	F
 all_feeds	lib/helpers/blogging.rb	/^  def all_feeds$/;"	f	class:Blogging
 ancestor_link_unless_current	lib/default.rb	/^def ancestor_link_unless_current(title, destination)$/;"	f
 ancestor_of?	lib/default.rb	/^  def ancestor_of?(item)$/;"	f	class:Nanoc
@@ -154,9 +155,10 @@ hyphenator.js	staging/thecwlzone-2.0/scripts/hyphenator.js	1;"	F
 identifier	commands/new-note.rb	/^    def identifier$/;"	f
 img	lib/helpers.rb	/^def img(item=nil, attributes={})$/;"	f
 index.html	staging/thecwlzone-2.0/about/index.html	1;"	F
-index.html	staging/thecwlzone-2.0/contact/index.html	1;"	F
+index.html	staging/thecwlzone-2.0/academic/index.html	1;"	F
 index.html	staging/thecwlzone-2.0/curriculum/index.html	1;"	F
 index.html	staging/thecwlzone-2.0/index.html	1;"	F
+index.html	staging/thecwlzone-2.0/professional/index.html	1;"	F
 index.html	staging/thecwlzone-2.0/publications/index.html	1;"	F
 index.html	staging/thecwlzone-2.0/research/index.html	1;"	F
 info	lib/default.rb	/^def info(key, item=nil)$/;"	f
@@ -176,6 +178,7 @@ metadata	commands/new-note.rb	/^    def metadata$/;"	f
 mtime	lib/helpers/blogging.rb	/^    def mtime(items=nil)$/;"	f	class:Blogging.Feed
 new-note.rb	commands/new-note.rb	1;"	F
 phone	lib/helpers.rb	/^def phone(main, opts={})$/;"	f
+professional.html	content/professional.html	1;"	F
 publish.rb	commands/publish.rb	1;"	F
 push.rb	commands/push.rb	1;"	F
 rank_tags	lib/helpers/tagging_extra.rb	/^  def rank_tags(n, items=nil) $/;"	f	class:TaggingExtra
