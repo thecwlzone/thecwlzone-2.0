@@ -11,7 +11,7 @@ menu_title: Home
 
 ## Welcome
 
-Hello, Welcome to my web site.
+Hello, and welcome to my web site.
 
 ##### My Latest Gig
 I am a Senior Engineer with Comcast's National Engineering and Technical Operations organization (NETO). Within NETO's vast hierarchy of functions exists the Applications Management Tools Team consisting of seven Developers (including myself), a Manager and a Business Analyst. We're building internal Configuration Management Database systems that track Application and Device Configuration and Topology information for the 2000+ Applications and 200K+ Devices that are used within NETO.
@@ -29,9 +29,9 @@ I hold a Bachelor of Science degree in Electrical Engineering and a Doctorate in
 There is some additional background information about me on the [About](/about/) page.
 
 ##### Blogging
-I occasionally write about techno-social issues on my [Blog](/blog/). If you have to place me somewhere on the political spectrum, you can list me under the category of Redneck Anarchist. Cheers!
+I occasionally write about techno-social-political issues on my [Blog](/blog/). My political philosophy is best described as Redneck Anarchist. You've been warned. ![smiley1]
 
-Best Regards,
+Best Regards,<br />
 Chris
 
 ----

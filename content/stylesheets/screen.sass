@@ -2,8 +2,11 @@
 @import slides
 
 //$text_font: Ubuntu, "Myriad Pro", Calibri, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
-$text_font: "Trebuchet MS", Helvetica, sans-serif
-//$text_font: "Lucida Console", Monaco, monospace
+//$text_font: "Trebuchet MS", Helvetica, sans-serif
+//$main_font: "Arial Black", "Arial Bold", Gadget, sans-serif
+//$main_font: Futura, "Trebuchet MS", Arial, sans-serif
+$text_font: "Century Gothic", CenturyGothic, AppleGothic, sans-serif
+$main_font: "Lucida Console", Monaco, monospace
 $display_font: $text_font
 
 //$body_color: rgb(95, 166, 68)
@@ -103,6 +106,8 @@ a
   -moz-box-shadow: 0 0 1ex rgb(150, 180, 80)
 
 #main
+  font-family: $main_font
+  font-size: 110%
   color: black
   padding: 2em 2em 2em 2em
   margin: 0 -2em
@@ -135,8 +140,8 @@ a
     display: run-in
     margin: 2ex 1em 1ex 0
   p, ul, ol, dl
-    margin-top: .75ex
-    margin-bottom: .75ex
+    margin-top: 2ex
+    margin-bottom: 2ex
   ul
     list-style: disc
   ol
