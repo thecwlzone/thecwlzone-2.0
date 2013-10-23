@@ -44,3 +44,7 @@ Chris
   <p>This site does not use Google Analytics or any other user tracking software</p>
 </div>
 
+<div class="banner">
+  <p>Disclaimer: The content of this site is my own, and they do not represent any past, present or future employer's positions, strategies or opinions.
+</div>
+
