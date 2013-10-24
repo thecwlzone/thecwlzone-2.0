@@ -37,7 +37,7 @@ author_uri: *BASE
 
 # default and global metadata
 default_info:
-  author_name: &ME Christopher W Lehman DCS
+  author_name: &ME Christopher W Lehman
   author: *ME
   analytics:
   site_lang: en
@@ -45,7 +45,7 @@ default_info:
   header_url: /
   header_slogan: >
     <h1>Christopher W Lehman</h1><br />
-    Senior Engineer, <a href="http://www.comcast.com">Comcast</a> National Engineering and Technical Operations<br />
+    Senior Engineer, <a href="http://www.comcast.com" target="_blank">Comcast</a> National Engineering and Technical Operations<br />
     Owner and Operator of <a href="http://www.thecwlzone.com">TheCWLZone.com</a><br />
     <em>Ruby and Rails Developer</em>
   description: >
