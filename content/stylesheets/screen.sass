@@ -18,6 +18,7 @@ $body_link_color: rgb(29, 61, 53)
 //$headings_color: rgb(224, 80, 48)
 $headings_color: rgb(18, 148, 78)
 $link_color: rgb(17, 68, 152)
+$toggle_color: rgb(18, 149, 78)
 
 $banner_color: rgb(222, 239, 209)
 $highlight_color: rgb(255, 255, 160)
@@ -115,6 +116,11 @@ a
   +rounded
   a
     color: $link_color
+  a.text_toggle
+    color: $toggle_color
+    font-weight: darker
+    font-size: 75%
+
   h1, h2, h3, h4, h5, h6
     a
       color: inherit

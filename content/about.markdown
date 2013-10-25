@@ -5,7 +5,7 @@ menu_title: About
 <%= render 'partials/markdown_links' %>
 
 ## Professional Ramblings
-I haven't always been a web developer. <a href="#" onclick="toggle_visibility('ramblings_content');">Read More|Less</a>
+I haven't always been a web developer. <a href="#" class="text_toggle" onclick="toggle_visibility('ramblings_content');">Read More|Less</a>
 
 {::options parse_block_html="true" /}
 <div id="ramblings_content" style="display:none">
@@ -13,13 +13,12 @@ TBD
 </div>
 
 ## About This Site
-This is the 2.0 version of my web site. This time around, I decided to
-use [nanoc][Nanoc] <a href="#" onclick="toggle_visibility('site_content');">Read More|Less</a>
+This is the 2.0 version of my web site. This time around, I decided to use [nanoc][Nanoc]. <a href="#" class="text_toggle" onclick="toggle_visibility('site_content');">Read More|Less</a>
 
-{::options parse_block_html="true" /}
 <div id="site_content" style="display:none">
 TBD
 </div>
+{::options parse_block_html="false" /}
 
 ## Acknowledgements
 [Real Men][RealMen]{:target="_blank"} give credit where credit is due. Thanks to:

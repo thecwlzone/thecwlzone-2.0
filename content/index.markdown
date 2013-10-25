@@ -12,7 +12,7 @@ menu_title: Home
 ## Welcome
 
 Hello, and welcome to my web site.
-<a href="#" onclick="toggle_visibility('more_content');">Read More|Less</a>
+<a href="#" class="text_toggle" onclick="toggle_visibility('more_content');">Read More|Less</a>
 
 {::options parse_block_html="true" /}
 <div id="more_content" style="display:none">
@@ -36,13 +36,13 @@ There is some additional background information about me on the [About](/about/)
 ##### Blogging
 I occasionally write about techno-social-political issues on my [Blog](/blog/). My political philosophy is best described as Redneck Anarchist[^1]. You've been warned. ![smiley1](/images/other/biggrin.gif/)
 
+[^1]: OK, it's actually [this][Anarcho-capitalism]{:target="_blank"}
+
 Best Regards,<br />
 Chris
 
 </div>
 {::options parse_block_html="false" /}
-
-[^1]: OK, it's actually [this][Anarcho-capitalism]{:target="_blank"}
 
 ----
 
