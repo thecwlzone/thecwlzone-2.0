@@ -12,15 +12,20 @@ menu_title: Home
 ## Welcome
 
 Hello, and welcome to my web site.
+<a href="#" onclick="toggle_visibility('more_content');">Read More|Less</a>
 
+{::options parse_block_html="true" /}
+<div id="more_content" style="display:none">
 ##### My Latest Gig
-I am a Senior Engineer with Comcast's National Engineering and Technical Operations organization (NETO). Within NETO's vast hierarchy of functions exists the Applications Management Tools Team consisting of seven Developers (including myself), a Manager and a Business Analyst. We're building Configuration Management Database systems that track configuration and topology information for the 2000+ Applications and 200K+ Devices that are used within NETO.
+I am a Senior Engineer with Comcast's National Engineering and Technical Operations organization (NETO).
 
-Our development stack includes [Ruby on Rails][Rails]{:target="_blank"} 3.2. We use [Chef][Chef]{:target="_blank"}, [Unicorn][Unicorn]{:target="_blank"} and [Capistrano][Capistrano]{:target="_blank"} to configure and run our servers. Front-end technology includes [jQuery][jQuery]{:target="_blank"} and [Twitter Bootstrap][TwitterBootstrap]{:target="_blank"}, and our backend databases are [MySQL][MySQL]{:target="_blank"} and [Oracle][Oracle]{:target="_blank"}. We do a *lot* of API work as we talk to over a dozen databases within the NETO community. Version control and [Continuous Integration][CI] of the Rails code base is handled by [Git][Git]{:target="_blank"} and [Bamboo][Bamboo]{:target="_blank"}.
+  Within NETO's vast hierarchy of functions exists the Applications Management Tools Team consisting of seven Developers (including myself), a Manager and a Business Analyst. We're building Configuration Management Database systems that track configuration and topology information for the 2000+ Applications and 200K+ Devices that are used within NETO.
 
-We are very much a [DevOps][DevOps]{:target="_blank"} team, and we use a slightly modified [Rally Software][Rally]{:target="_blank"} ALM platform to support a [ScrumBan][ScrumBan]{:target="_blank"} [Agile][Agile]{:target="_blank"} methodology. We release new code on a two week iteration cycle.
+  Our development stack includes [Ruby on Rails][Rails]{:target="_blank"} 3.2. We use [Chef][Chef]{:target="_blank"}, [Unicorn][Unicorn]{:target="_blank"} and [Capistrano][Capistrano]{:target="_blank"} to configure and run our servers. Front-end technology includes [jQuery][jQuery]{:target="_blank"} and [Twitter Bootstrap][TwitterBootstrap]{:target="_blank"}, and our backend databases are [MySQL][MySQL]{:target="_blank"} and [Oracle][Oracle]{:target="_blank"}. We do a *lot* of API work as we talk to over a dozen databases within the NETO community. Version control and [Continuous Integration][CI] of the Rails code base is handled by [Git][Git]{:target="_blank"} and [Bamboo][Bamboo]{:target="_blank"}.
 
-For information about my work experience at previous employers, please see my [Professional](/professional/) page.
+  We are very much a [DevOps][DevOps]{:target="_blank"} team, and we use a slightly modified [Rally Software][Rally]{:target="_blank"} ALM platform to support a [ScrumBan][ScrumBan]{:target="_blank"} [Agile][Agile]{:target="_blank"} methodology. We release new code on a two week iteration cycle.
+
+  For information about my work experience at previous employers, please see my [Professional](/professional/) page.
 
 ##### School Stuff
 I hold a Bachelor of Science degree in Electrical Engineering and a Doctorate in Computer Science. Please see my [Academic](/academic/) page for more details pertaining to my educational background.
@@ -33,6 +38,9 @@ I occasionally write about techno-social-political issues on my [Blog](/blog/). 
 
 Best Regards,<br />
 Chris
+
+</div>
+{::options parse_block_html="false" /}
 
 [^1]: OK, it's actually [this][Anarcho-capitalism]{:target="_blank"}
 
@@ -50,3 +58,9 @@ Chris
   <p>Disclaimer: The content of this site is my own, and it does not represent any past, present or future employer's positions, strategies or opinions.
 </div>
 
+<script type="text/javascript">
+function toggle_visibility(id) {
+var e = document.getElementById(id);
+e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+}
+</script>
