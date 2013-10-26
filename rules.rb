@@ -29,15 +29,6 @@ layout '*', :by_extension,
 # do not generate partials, Sass includes, etc
 ignore %r{/(_|README)}
 
-# publications list from bibliography
-compile '/publications/ChristopherWLehman/', rep: :html do
-  filter :external,
-    cmd: [ 'bibhtmlize/bibhtmlize', item[:content_filename] ],
-    pipe_content: false
-end
-
-route '/publications/ChristopherWLehman/', rep: :html do  nil  end
-
 # blog articles
 #compile %r{/notes/\d\d\d\d/.*/} do
 #  case item[:extension]
