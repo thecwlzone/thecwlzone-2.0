@@ -12,7 +12,7 @@ menu_title: Home
 ## Welcome
 
 Hello, and welcome to my web site.
-<a href="#" class="text_toggle" onclick="toggle_visibility('more_content');">Read More|Less</a>
+<a href="#" onclick="toggle_visibility();">Read More|Less</a>
 
 {::options parse_block_html="true" /}
 <div id="more_content" style="display:none">
@@ -34,15 +34,19 @@ I hold a Bachelor of Science degree in Electrical Engineering and a Doctorate in
 There is some additional background information about me on the [About](/about/) page.
 
 ##### Blogging
-I occasionally write about techno-social-political issues on my [Blog](/blog/). My political philosophy is best described as Redneck Anarchist[^1]. You've been warned. ![smiley1](/images/other/biggrin.gif/)
-
-[^1]: OK, it's actually [this][Anarcho-capitalism]{:target="_blank"}
+I occasionally write about techno-social-political issues on my [Blog](/blog/). My political philosophy is best described as Redneck Anarchist(1). You've been warned. ![smiley1](/images/other/biggrin.gif/)
 
 Best Regards,<br />
 Chris
 
 </div>
+
+<div id="footnote1" class="footnotes" style="display:none">
+(1)OK, it's actually [this][Anarcho-capitalism]{:target="_blank"}
+</div>
+
 {::options parse_block_html="false" /}
+
 
 ----
 
@@ -59,8 +63,10 @@ Chris
 </div>
 
 <script type="text/javascript">
-function toggle_visibility(id) {
-var e = document.getElementById(id);
+function toggle_visibility() {
+var e = document.getElementById("more_content");
+e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+var e = document.getElementById("footnote1");
 e.style.display = ((e.style.display!='none') ? 'none' : 'block');
 }
 </script>
