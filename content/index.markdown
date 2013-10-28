@@ -12,7 +12,7 @@ menu_title: Home
 ## Welcome
 
 Hello, and welcome to my web site.
-<a href="#" onclick="toggle_visibility();">Read More|Less</a>
+<a href="#" class="text_toggle" onclick="toggle_visibility();">Read More|Less</a>
 
 {::options parse_block_html="true" /}
 <div id="more_content" style="display:none">
