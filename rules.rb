@@ -2,13 +2,6 @@
 
 preprocess do
 
-  # setup blog items
-#  all_feeds.each do |feed|
-#    feed.chain_entries
-#    feed.set_info
-#    feed.generate
-#  end
-
   # sitemap
   hide_items do |item|
     case item.identifier
@@ -29,23 +22,9 @@ layout '*', :by_extension,
 # do not generate partials, Sass includes, etc
 ignore %r{/(_|README)}
 
-# blog articles
-#compile %r{/notes/\d\d\d\d/.*/} do
-#  case item[:extension]
-#  when 'html', 'markdown'
-#    filter :erb
-#    filter :kramdown
-#    filter :rubypants
-#    layout 'article'
-#    filter :relativize_paths, type: :html
-#  end
-#end
-
 # default pipeline & routing
 compile '*' do
   case item[:extension]
-  when 'bib'
-    # TODO filter out the BibDesk noise
   when /(.+\.)?js/
     # filter :closure_compiler
   when 'sass'
