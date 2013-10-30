@@ -9,7 +9,20 @@ I haven't always been a web developer. <a href="#" class="text_toggle" onclick="
 
 {::options parse_block_html="true" /}
 <div id="ramblings_content" style="display:none">
-TBD
+In fact, I've been doing Rails development full time for about four years now, and I've been working with the [Ruby][Ruby]{:target="_blank"} language since 2005.
+
+Prior to that, I spent 27 years in the semiconductor industry at various companies such as Ford Microelectronics, [Cypress Semiconductor][Cypress]{:target="_blank"} and [IBM][IBM]{:target="_blank"}. My roles varied, but basically I was a [DevOps][DevOps]{:target="_blank"} before the buzzword was invented: doing a combination of software development and system administration, as well as acting as the local SME for the Electronic Design Automation tools vital for the creation of [VLSI][VLSI] circuits.
+
+My Ford Micro years in the 1980s was great fun. A Motor City exile working for a car company in Colorado - it doesn't get much better than that. We were designing [first generation][Intel8061]{:target="_blank"} automotive electronics during the week and running Mustangs and T-birds in [SCCA][SCCA]{:target="_blank"} Solo II competition on the weekends. Motor Head Nirvana.
+
+But all things come to an end, and when I ran out of interesting things to do at Ford I jumped ship to a VLSI design startup, which promptly went under. The design team was picked up by Cypress, and I spent 14 years at the Colorado Springs Design Center where we designed [static RAMs][RAMs] that generated the company over $1.5 billion in revenue over that time.
+
+During my Cypress term of enlistment the [Dot Bomb][DotBomb]{:target="_blank"} crash of 2000 played out, and after dodging more layoffs than I care to remember, my number came up in 2005, and that was the end of the road with Cypress.
+
+Through a series of remarkable events, IBM decided to put a small team of circuit designers together (including myself) to tool up a new IBM IC design center in Colorado Springs, but yet another semiconductor market pullback killed that idea, and with a front-row seat to the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on internal web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable "second career" choice. And that's where I am today.![smiley1](/images/other/biggrin.gif/)
+
+If you're interested in a more "formal" career timeline, my [LinkedIn][LinkedIn]{:target="_blank"} profile has all the dates and details. Cheers!
+
 </div>
 {::options parse_block_html="false" /}
 
