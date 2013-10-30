@@ -6,7 +6,7 @@ menu_title: Professional
 
 [Resume](/files/ChristopherWLehman.pdf){:target="_blank"} (PDF File)
 
-My [LinkedIn][LinkedIn] profile delves into my career prior to becoming a Rails developer.
+My [LinkedIn][LinkedIn]{:target="_blank"} profile delves into my career prior to becoming a Rails developer.
 
 ## Current Employment
 
@@ -25,7 +25,7 @@ Alas, ProfitStreams is no longer in business, the LinkedIn URL is [here][ProfitS
 
 ### Internet Pawn, Inc, now dba Pawngo
 
-Internet Pawn and Boomerang Lending have merged into [Pawngo][Pawngo]{:target="_blank"}. The previous sites were all Rails 2.3.x The Boomerang Lending site was Rails 2.3.8 using Refinery CMS for the backend admin services. I did all the Rails development and also wore the DevOps hat.
+Internet Pawn and Boomerang Lending have merged into [Pawngo][Pawngo]{:target="_blank"}. The previous sites were all Rails 2.3.x The Boomerang Lending site was Rails 2.3.8 using [Refinery CMS][Refinery]{:target="_blank"} for the backend admin services. I did all the Rails development and also wore the DevOps hat.
 
 ### Boecore
 
@@ -40,7 +40,7 @@ I'm not a big fan of Professional Certs, but...
 
 {::options parse_block_html="true" /}
 <div id="more_certs_content" style="display:none">
-[PMI][PMI]{:target="_blank"}: Fundamentals of Project Management
+I have completed the [PMI][PMI]{:target="_blank"}: Fundamentals of Project Management course.
 </div>
 {::options parse_block_html="false" /}
 
