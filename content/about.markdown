@@ -41,9 +41,17 @@ I have decided to continue to use the [Wordpress][Wordpress] blog tool even thou
 
 Web site hosting is done by [NearlyFreeSpeech.net][NFSN]{:target="_blank"}. NFSN is a no-frills, DIY metered service web hosting company. I've been with them since 2004. It costs me about $15 a year to run the site, plus another $10 for annual domain registration. It doesn't get any cheaper. The "down side": you get to do everything yourself, so you need to be a combination web developer and sys admin.
 
-Site photography by De'Lynne Lehman, all rights reserved.<br />
+Site photography by De'Lynne Lehman, all rights reserved.
 
 The source code for this site is publicly available at my [GitHub][GitHub]{:target="_blank"} location. Have fun.
+
+This site has been tested against the following web browsers:
+
+* Google Chrome Version 30.0.1599.101
+* Safari Version 6.1 (8537.71)
+* Firefox 24.0, 25.0
+* Internet Explorer 10.0.9200.16721 (but try using a *real* web browser if you can)
+
 </div>
 {::options parse_block_html="false" /}
 
