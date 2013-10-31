@@ -9,17 +9,17 @@ I haven't always been a web developer. <a href="#" class="text_toggle" onclick="
 
 {::options parse_block_html="true" /}
 <div id="ramblings_content" style="display:none">
-In fact, I've been doing Rails development full time for about four years now, and I've been working with the [Ruby][Ruby]{:target="_blank"} language since 2005.
+I've been doing Rails development full time since 2009, and I've been working with the [Ruby][Ruby]{:target="_blank"} language since 2005.
 
-Prior to that, I spent 27 years in the semiconductor industry at various companies such as Ford Microelectronics, [Cypress Semiconductor][Cypress]{:target="_blank"} and [IBM][IBM]{:target="_blank"}. My roles varied, but basically I was a [DevOps][DevOps]{:target="_blank"} before the buzzword was invented: doing a combination of software development and system administration, as well as acting as the local SME for the Electronic Design Automation tools vital for the creation of [VLSI][VLSI] circuits.
+Prior to that, I spent 27 years in the semiconductor industry at various companies such as Ford Microelectronics, [Cypress Semiconductor][Cypress]{:target="_blank"} and [IBM][IBM]{:target="_blank"}. I was a [DevOps][DevOps]{:target="_blank"} before the buzzword was invented: doing a combination of software development and system administration, as well as acting as the local SME for the [Electronic Design Automation][EDA]{:target="_blank"} tools vital for the creation of [VLSI][VLSI] circuits.
 
-My Ford Micro years in the 1980s was great fun. A Motor City exile working for a car company in Colorado - it doesn't get much better than that. We were designing [first generation][Intel8061]{:target="_blank"} automotive electronics during the week and running Mustangs and T-birds in [SCCA][SCCA]{:target="_blank"} Solo II competition on the weekends. Motor Head Nirvana.
+My Ford career in the 1980s was great fun. A Motor City exile working for a car company in Colorado - it doesn't get much better than that. We were designing [first generation][Intel8061]{:target="_blank"} automotive electronics during the week and running Mustangs and T-birds in [SCCA][SCCA]{:target="_blank"} Solo II competition on the weekends. Motor Head Nirvana.
 
-But all things come to an end, and when I ran out of interesting things to do at Ford I jumped ship to a VLSI design startup, which promptly went under. The design team was picked up by Cypress, and I spent 14 years at the Colorado Springs Design Center where we designed [static RAMs][RAMs] that generated the company over $1.5 billion in revenue over that time.
+But all things come to an end, and when I ran out of interesting things to do at Ford I jumped ship to a VLSI design startup, which went under the following year. The design team was picked up by Cypress, and I spent 14 years at the Colorado Springs Design Center where we designed [static RAMs][RAMs] which generated over $1.5 billion in revenue for the company.
 
-During my Cypress term of enlistment the [Dot Bomb][DotBomb]{:target="_blank"} crash of 2000 played out, and after dodging more layoffs than I care to remember, my number came up in 2005, and that was the end of the road with Cypress.
+During my Cypress era the [Dot Bomb][DotBomb]{:target="_blank"} crash of 2000 played out, and after dodging more layoffs than I care to remember, my number came up in 2005, and that was the end of the road with Cypress.
 
-Through a series of remarkable events, IBM decided to put a small team of circuit designers together (including myself) to tool up a new IBM IC design center in Colorado Springs, but yet another semiconductor market pullback killed that idea, and with a front-row seat to the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on internal web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable "second career" choice. And that's where I am today.![smiley1](/images/other/biggrin.gif/)
+The crew that was cut from Cypress represented a huge amount of VLSI expertise, and we persuaded IBM to let us set up a new IBM VLSI design center in Colorado Springs. Yet another semiconductor market pullback ultimately killed that idea, and as an unwilling participant in the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on internal Rails web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable "second career" choice. And that's where I am today.![smiley1](/images/other/biggrin.gif/)
 
 If you're interested in a more "formal" career timeline, my [LinkedIn][LinkedIn]{:target="_blank"} profile has all the dates and details. Cheers!
 
@@ -33,13 +33,13 @@ This is the 2.0 version of my web site.
 {::options parse_block_html="true" /}
 <div id="site_content" style="display:none">
 
-This time around, I decided to use [nanoc][Nanoc]{:target="_blank"}, a Ruby-based static site generator. Basically, I use nanoc to build content, run the content through the nanoc compiler and upload the generated HTML pages up to my site's public directory.
+I decided to use [nanoc][Nanoc]{:target="_blank"}, a Ruby-based static site generator. I use nanoc to build content, run the content through the nanoc compiler and upload the generated HTML pages to my site's public directory.
 
 I use a number of web tools to create various effects on the site. See the "Generated by" section of the footnotes at the bottom of this page for a complete list.
 
 I have decided to continue to use the [Wordpress][Wordpress] blog tool even though nanoc has some very powerful built-in blogging features. I know Wordpress has a lot of overhead, there are constant updates, it's a favorite hacker target, blah, blah, blah. But it suits my purposes, and I don't want to burn anymore development time on the site right now. Maybe later.
 
-Web site hosting is done by [NearlyFreeSpeech.net][NFSN]{:target="_blank"}. NFSN is a no-frills, metered service, DIY web hosting company. I've been with them since 2004. It costs me about $15 a year to run the site, plus another $10 for annual domain registration. It doesn't get any cheaper. The "down side" - you get to do everything yourself, so you need to be a combination web developer and sys admin.
+Web site hosting is done by [NearlyFreeSpeech.net][NFSN]{:target="_blank"}. NFSN is a no-frills, DIY metered service web hosting company. I've been with them since 2004. It costs me about $15 a year to run the site, plus another $10 for annual domain registration. It doesn't get any cheaper. The "down side": you get to do everything yourself, so you need to be a combination web developer and sys admin.
 
 Site photography by De'Lynne Lehman, all rights reserved.<br />
 
@@ -54,7 +54,7 @@ The source code for this site is publicly available at my [GitHub][GitHub]{:targ
 
 2. the [nanoc][Nanoc]{:target="_blank"} team for putting together a very nice Ruby-based static site generator. It's been fun. Thanks!
 
-3. the nanoc Wiki which contains a list of [showcased][NanocShowcase]{:target="_blank"} web sites that use nanoc. I am indebted to Professor [Damien Pollet][DamienPollet]{:target="_blank"} for making his code publicly available, which provided me with a starting point towards building a nice looking web site. *Merci Beaucoup!* 
+3. the nanoc Wiki which contains a list of [showcased][NanocShowcase]{:target="_blank"} web sites that use nanoc. I am indebted to Professor [Damien Pollet][DamienPollet]{:target="_blank"} for making his code publicly available, providing me with a starting point towards building a nice looking web site. *Merci Beaucoup!* 
 
 4. my wife De'Lynne who is a great photographer. All the images on the Home page are her creations. I would be lost without you.
 

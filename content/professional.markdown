@@ -6,11 +6,11 @@ menu_title: Professional
 
 [Resume](/files/ChristopherWLehman.pdf){:target="_blank"} (PDF File)
 
-My [LinkedIn][LinkedIn]{:target="_blank"} profile delves into my career prior to becoming a Rails developer.
+My [LinkedIn][LinkedIn]{:target="_blank"} profile comtains a complete summary of my career path.
 
 ## Current Employment
 
-I am currently a Senior Engineer at the Comcast National Engineering & Technical Operations Division, where I am building internal web tools using Ruby on Rails. Complete details on the [Home](/) page.
+I am a Senior Engineer at the Comcast National Engineering & Technical Operations Division, where I am building internal web tools using Ruby on Rails. Complete details on the [Home](/) page.
 
 ## Web Site Development
 
@@ -21,7 +21,7 @@ Web site development at previous employers...
 <div id="more_development_content" style="display:none">
 ### ProfitStreams
 
-Alas, ProfitStreams is no longer in business, the LinkedIn URL is [here][ProfitStreams]{:target="_blank"}. As Senior Software Developer at ProfitStreams I built web applications for the hospitality industry, with a focus on development of an Online Ordering application for restaurants. The technology was Rails 2.3.5 (with a migration plan in place to Rails 3.1) integrated with a Java-based API (driven by [Talend][Talend]{:target="_blank"}) that merged the application data into a unified backend so that clients could log into one central location to see customer data and set up Twitter and Facebook marketing campaigns, among other things.
+Alas, ProfitStreams is no longer in business, the LinkedIn URL is [here][ProfitStreams]{:target="_blank"}. As Senior Software Developer at ProfitStreams I built web applications for the hospitality industry, with a focus on development of an Online Ordering application for restaurants. The technology was Rails 2.3.5 (with a migration plan in place to Rails 3.1) integrated with a Java-based API (driven by [Talend][Talend]{:target="_blank"}) that merged the application data into a unified backend. Clients could log into one central location to see customer data and set up Twitter and Facebook marketing campaigns, among other things.
 
 ### Internet Pawn, Inc, now dba Pawngo
 
@@ -29,7 +29,7 @@ Internet Pawn and Boomerang Lending have merged into [Pawngo][Pawngo]{:target="_
 
 ### Boecore
 
-[Boecore][Boecore]{:target="_blank"} operates in the DoD arena, and I helped develop BoBCAT - a Rails 2 application for automating and tracking the DIACAP compliance and Information Assurance activities required by the Missile Defense Agency. This was a classified project, but you can view some high level details [here](http://www.boecore.com/resources/Capabilities/Capabilities/Cyber---0810.pdf){:target="_blank"} (PDF file).
+[Boecore][Boecore]{:target="_blank"} does business as a DoD contractor, and I helped develop BoBCAT - a Rails 2 application for automating and tracking the DIACAP compliance and Information Assurance activities required by the Missile Defense Agency. This was a classified project, but you can view some high level details [here](http://www.boecore.com/resources/Capabilities/Capabilities/Cyber---0810.pdf){:target="_blank"} (PDF file).
 </div>
 {::options parse_block_html="false" /}
 
