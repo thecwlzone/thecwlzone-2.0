@@ -34,7 +34,7 @@ I hold a Bachelor of Science degree in Electrical Engineering and a Doctorate in
 There is some additional background information about me on the [About](/about/) page.
 
 ##### Blogging
-I occasionally write about techno-social-political issues on my [Blog](/blog/). My political philosophy is best described as Redneck Anarchist(1). You've been warned. ![smiley1](/images/other/biggrin.gif/)
+I occasionally write about techno-social-political issues on my [Blog](/blog/). My political philosophy is best described as Redneck Anarchist(1). You've been warned. ![smiley1](/images/other/biggrin.gif)
 
 Best Regards,<br />
 Chris

@@ -19,7 +19,7 @@ But all things come to an end, and when I ran out of interesting things to do at
 
 During my Cypress era the [Dot Bomb][DotBomb]{:target="_blank"} crash of 2000 played out, and after dodging more layoffs than I care to remember, my number came up in 2005, and that was the end of the road with Cypress.
 
-The crew that was cut from Cypress represented a huge amount of VLSI expertise, and we persuaded IBM to let us set up a new IBM VLSI design center in Colorado Springs. Yet another semiconductor market pullback ultimately killed that idea, and as an unwilling participant in the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on internal Rails web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable "second career" choice. And that's where I am today.![smiley1](/images/other/biggrin.gif/)
+The crew that was cut from Cypress represented a huge amount of VLSI expertise, and we persuaded IBM to let us set up a new IBM VLSI design center in Colorado Springs. Yet another semiconductor market pullback ultimately killed that idea, and as an unwilling participant in the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on internal Rails web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable "second career" choice. And that's where I am today.![smiley1](/images/other/biggrin.gif)
 
 If you're interested in a more "formal" career timeline, my [LinkedIn][LinkedIn]{:target="_blank"} profile has all the dates and details. Cheers!
 
