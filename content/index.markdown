@@ -47,7 +47,6 @@ Chris
 
 {::options parse_block_html="false" /}
 
-
 ----
 
 ## Contact Info
