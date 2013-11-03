@@ -16,8 +16,8 @@ data_sources:
 
 output_dir: staging/thecwlzone-2.0
 
-prune:
-  auto_prune: true
+#prune:
+#  auto_prune: true
 
 deploy:
   default:
