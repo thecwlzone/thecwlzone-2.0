@@ -15,11 +15,11 @@ Prior to that, I spent 27 years in the semiconductor industry at various compani
 
 My Ford career in the 1980s was great fun. A Motor City exile working for a car company in Colorado - it doesn't get much better than that. We were designing [first generation][Intel8061]{:target="_blank"} automotive electronics during the week and running Mustangs and T-birds in [SCCA][SCCA]{:target="_blank"} Solo II competition on the weekends. Motor Head Nirvana.
 
-But all things come to an end, and when I ran out of interesting things to do at Ford I jumped ship to a VLSI design startup, which went under the following year. The design team was picked up by Cypress, and I spent 14 years at the Colorado Springs Design Center where we designed [static RAMs][RAMs] which generated over $1.5 billion in revenue for the company.
+But all things come to an end, and when I ran out of interesting things to do at Ford I jumped ship to a VLSI design startup, that went under the following year. The design team was picked up by Cypress, and I spent 14 years at the Colorado Springs Design Center where we designed [static RAMs][RAMs] which generated over $1.5 billion in revenue for the company.
 
 During my Cypress era the [Dot Bomb][DotBomb]{:target="_blank"} crash of 2000 played out, and after dodging more layoffs than I care to remember, my number came up in 2005, and that was the end of the road with Cypress.
 
-The crew that was cut from Cypress represented a huge amount of VLSI expertise, and we persuaded IBM to let us set up a new IBM VLSI design center in Colorado Springs. Yet another semiconductor market pullback ultimately killed that idea, and as an unwilling participant in the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on internal Rails web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable "second career" choice. And that's where I am today.![smiley1](/images/other/biggrin.gif)
+The crew that was cut from Cypress represented a huge amount of VLSI expertise, and we persuaded IBM to let us set up a new VLSI design center in Colorado Springs. Yet another semiconductor market pullback ultimately killed that idea, and as an unwilling participant in the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on Rails web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable "second career" choice. And that's where I am today.![smiley1](/images/other/biggrin.gif)
 
 If you're interested in a more "formal" career timeline, my [LinkedIn][LinkedIn]{:target="_blank"} profile has all the dates and details. Cheers!
 
@@ -62,7 +62,7 @@ This site has been tested against the following web browsers:
 
 2. the [nanoc][Nanoc]{:target="_blank"} team for putting together a very nice Ruby-based static site generator. It's been fun. Thanks!
 
-3. the nanoc Wiki which contains a list of [showcased][NanocShowcase]{:target="_blank"} web sites that use nanoc. I am indebted to Professor [Damien Pollet][DamienPollet]{:target="_blank"} for making his code publicly available, providing me with a starting point towards building a nice looking web site. *Merci Beaucoup!* 
+3. the nanoc Wiki which contains a list of [showcased][NanocShowcase]{:target="_blank"} web sites which use nanoc. I am indebted to Professor [Damien Pollet][DamienPollet]{:target="_blank"} for making his code publicly available, providing me with a starting point towards building a decent looking web site. *Merci Beaucoup!* 
 
 4. my wife De'Lynne who is a great photographer. All the images on the Home page are her creations. I would be lost without you.
 
