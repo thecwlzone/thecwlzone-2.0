@@ -19,7 +19,7 @@ Hello, and welcome to my web site.
 ##### My Latest Gig
 I am a Senior Engineer with Comcast's National Engineering and Technical Operations organization (NETO).
 
-  Within NETO's vast hierarchy of functions exists the Applications Management Tools Team consisting of seven Developers (including myself), a Manager and a Business Analyst. We're building Configuration Management Database systems that track configuration and topology information for the 2000+ Applications and 200K+ Devices that are used within NETO.
+  Within NETO's vast hierarchy of functions exists the Applications Management Tools Team consisting of seven Developers (including myself), a Manager and a Business Analyst. We're building Configuration Management Database systems which track configuration and topology information for the 2000+ Applications and 200K+ Devices used within NETO.
 
   Our development stack includes [Ruby on Rails][Rails]{:target="_blank"} 3.2. We use [Chef][Chef]{:target="_blank"}, [Unicorn][Unicorn]{:target="_blank"} and [Capistrano][Capistrano]{:target="_blank"} to configure and run our servers. Front-end technology includes [jQuery][jQuery]{:target="_blank"} and [Twitter Bootstrap][TwitterBootstrap]{:target="_blank"}, and our backend databases are [MySQL][MySQL]{:target="_blank"} and [Oracle][Oracle]{:target="_blank"}. We do a *lot* of API work as we talk to over a dozen databases within the NETO community. Version control and [Continuous Integration][CI] of the Rails code base is handled by [Git][Git]{:target="_blank"} and [Bamboo][Bamboo]{:target="_blank"}.
 
