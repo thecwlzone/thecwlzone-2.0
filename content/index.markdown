@@ -3,7 +3,7 @@ title: Home
 menu_title: Home
 ---
 <%= render 'partials/markdown_links' %>
-<% render "slidesjs/slideshow_bare", style: 'width:930px;height:262px;', css_class: 'center noframe' do %>
+<% render "slidesjs/slideshow_bare", style: 'width:100%;height:262px;', css_class: 'center noframe' do %>
   <% items_by_identifier(%r{/images/landscapes/.*}).each do |i| %>
     <img class='slide' src="<%= relative_path_to i %>" title="<%= i[:title] %>" alt="Random landscapes" />
   <% end %>
