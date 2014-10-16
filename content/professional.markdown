@@ -10,7 +10,7 @@ My [LinkedIn][LinkedIn]{:target="_blank"} profile comtains a complete summary of
 
 ## Current Employment
 
-I am a Senior Engineer at the Comcast National Engineering & Technical Operations Division, where I am building internal web tools using Ruby on Rails. Complete details on the [Home](/) page.
+I am a Senior Engineer at the Comcast Technology and Product Development organization (T&P), where I am building internal web tools using Ruby on Rails. Complete details on the [Home](/) page.
 
 ## Web Site Development
 
