@@ -6,7 +6,7 @@ menu_title: Professional
 
 [Resume](/files/ChristopherWLehman.pdf){:target="_blank"} (PDF File) <span class="light"> A bit stale right now, try my LinkedIn site instead.</span>
 
-My [LinkedIn][LinkedIn]{:target="_blank"} profile comtains a complete summary of my career path.
+My [LinkedIn][LinkedIn]{:target="_blank"} profile contains a complete summary of my career path.
 
 ## Current Employment
 
