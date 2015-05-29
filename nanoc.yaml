@@ -50,9 +50,10 @@ default_info:
   keywords: >
     ruby,
     rails,
-    software engineering,
+    devops,
     agile,
-    object-oriented
+    object-oriented,
+    software engineering
   header_menu:
     - /professional/
     - /academic/

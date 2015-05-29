@@ -47,9 +47,9 @@ The source code for this site is publicly available at my [GitHub][GitHub]{:targ
 
 This site has been tested against the following web browsers:
 
-* Google Chrome Version 30.0.1599.101
-* Safari Version 6.1 (8537.71)
-* Firefox 24.0, 25.0
+* Google Chrome Version 43.x
+* Safari Version 7.1
+* Firefox 38.x
 * Internet Explorer 10.0.9200.16721 (but try using a *real* web browser if you can)
 
 </div>

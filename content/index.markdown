@@ -16,10 +16,10 @@ Hello, and welcome to my web site.
 
 {::options parse_block_html="true" /}
 <div id="more_content" style="display:none">
-##### My Latest Gig
+##### Current Employment
 I am a Senior Engineer with Comcast's Technology and Product Development organization (T&P).
 
-  Within T&P's vast hierarchy of functions exists the Applications Management Tools Team consisting of seven Developers (including myself), a Manager and a Business Analyst. We're building Configuration Management Database systems which track configuration and topology information for the 2000+ Applications and 200K+ Devices used within T&P.
+  Within T&P's vast hierarchy of functions exists the Applications Management Tools Team consisting of seven Developers (including myself), a Manager and a Business Analyst. We're building Configuration Management Database systems which track configuration and network topology information for the 3000+ Applications and 300K+ Devices used within T&P.
 
   Our development stack includes [Ruby on Rails][Rails]{:target="_blank"} 3.2 and 4.1. We use [Chef][Chef]{:target="_blank"}, [Unicorn][Unicorn]{:target="_blank"} and [Capistrano][Capistrano]{:target="_blank"} to configure and run our servers. Front-end technology includes [jQuery][jQuery]{:target="_blank"} and [Twitter Bootstrap][TwitterBootstrap]{:target="_blank"}, and our backend databases are [MySQL][MySQL]{:target="_blank"} and [Oracle][Oracle]{:target="_blank"}. We do a *lot* of API work as we talk to over a dozen databases within the T&P community. Version control and [Continuous Integration][CI] of the Rails code base is handled by [Git][Git]{:target="_blank"}, [Bamboo][Bamboo]{:target="_blank"} and [Jenkins][Jenkins]{:target="_blank"}.
 
@@ -27,7 +27,7 @@ I am a Senior Engineer with Comcast's Technology and Product Development organiz
 
   For information about my work experience at previous employers, please see my [Professional](/professional/) page.
 
-##### School Stuff
+##### Academia
 I hold a Bachelor of Science degree in Electrical Engineering and a Doctorate in Computer Science. Please see my [Academic](/academic/) page for more details pertaining to my educational background.
 
 ##### C'Est Moi!
@@ -58,7 +58,7 @@ Chris
 </div>
 
 <div class="banner">
-  <p>Disclaimer: The content of this site is my own, and it does not represent any past, present or future employer's positions, strategies or opinions.
+<p>Disclaimer: The content of this site is my own, and it does not represent any past, present or future employer's positions, strategies or opinions.</p>
 </div>
 
 <script type="text/javascript">
