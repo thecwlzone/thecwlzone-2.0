@@ -1,4 +1,3 @@
-!!! 1.1
 !!!
 %html{:xmlns => "http://www.w3.org/1999/xhtml", :'xml:lang' => info(:site_lang), :lang => info(:site_lang)}
   %head
@@ -10,7 +9,6 @@
     %link{:rel => "icon", :type => "image/png", :href => "/images/icon.png"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/screen.css", :media => "screen,projection"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/animations.css", :media => "screen,projection"}
-    -# %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/print.css", :media => "print"}
 
     %title= "#{info :header_title} — #{@item[:title]}"
 
@@ -45,7 +43,7 @@
       = render "partials/footer"
       %a.hide{:href => "#pagetop", :accesskey => "1"} Back to top
 
-    %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"}
+    %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"}
     %script{:type => "text/javascript", :src => "/scripts/footnotes.js"}
     = render "slidesjs/setup"
     = render "setup/hyphenator"
