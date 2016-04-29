@@ -15,19 +15,9 @@ data_sources:
   - { type: filesystem_unified, items_root: /, layouts_root: /, allow_periods_in_identifiers: true }
 
 output_dir: staging/thecwlzone-2.0
+string_pattern_type: "legacy"
 
 deploy:
-  default:
-    kind: rsync
-    dst: staging/thecwlzone-2.0
-    options: &RSYNCOPTS [ --rsh=ssh, --archive, --delete-after, --verbose, --compress ]
-  public:
-    kind: rsync
-    dst:
-    options: *RSYNCOPTS
-  github:
-    kind: git
-    working_dir: staging
 
 base_url: &BASE http://
 author_uri: *BASE
@@ -58,4 +48,4 @@ default_info:
     - /professional/
     - /academic/
     - /about/
-
+    - /gallery/

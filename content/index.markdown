@@ -5,7 +5,7 @@ menu_title: Home
 <%= render 'partials/markdown_links' %>
 <% render "slidesjs/slideshow_bare", style: 'width:100%;height:262px;', css_class: 'center noframe' do %>
   <% items_by_identifier(%r{/images/landscapes/.*}).shuffle(random: Random.new(3)).each do |i| %>
-    <img class='slide' src="<%= relative_path_to i %>" title="Photography by De'Lynne Lehman. All rights reserved." alt="Random landscapes" />
+    <img class='slide' src="<%= relative_path_to i %>" title="Photography by De'Lynne Salley. All rights reserved." alt="Random landscapes" />
   <% end %>
 <% end %>
 

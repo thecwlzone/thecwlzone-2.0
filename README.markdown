@@ -6,4 +6,4 @@ I continue to use Wordpress for my blog, so this is not a good example of nanoc'
 
 Please don't reuse the style directly, at least not without making *reasonably visible* aesthetic modifications. I've already ripped it off from somebody else as it is. Thanks.
 
-All photographs on this site belong to De'Lynne Lehman. All rights reserved.
+All photographs and gallery images on this site belong to De'Lynne Salley. All rights reserved.
