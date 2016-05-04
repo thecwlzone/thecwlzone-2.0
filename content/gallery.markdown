@@ -1,8 +1,8 @@
 ---
-title: 'Delynne Salley Gallery'
-menu_title: 'Delynne Salley Gallery'
+title: "De'Lynne Salley Gallery"
+menu_title: "De'Lynne Salley Gallery"
 ---
-## Delynne Salley Gallery
+## De'Lynne Salley Gallery
 
 ### Colorado Landscapes: Paintings in Oil
 

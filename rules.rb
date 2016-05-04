@@ -50,9 +50,9 @@ compile '/gallery/.*' do
   layout 'gallery'
 end
 
-compile '/images/gallery/*', rep: :thumbnail do
-  # filter :thumbnailize, width: 200
-end
+# compile '/images/gallery/*', rep: :thumbnail do
+#   filter :thumbnailize, width: 200
+# end
 
 route '*' do
   case item[:extension]
@@ -68,6 +68,7 @@ route '*' do
 end
 
 route '/images/gallery/*', rep: :thumbnail do
+  item.identifier.chop + '-thumbnail.' + item[:extension]
   # item.identifier + '-thumbnail.' + item.ext
   # item.identifier.chop + '-thumbnail.' + 'jpg'
 end
