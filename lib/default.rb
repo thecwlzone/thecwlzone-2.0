@@ -2,11 +2,11 @@
 # All files in the 'lib' directory will be loaded
 # before nanoc starts compiling.
 
-require 'nokogiri'
+# require 'nokogiri'
 
-#include Nanoc::Helpers::Blogging
-include Nanoc::Helpers::Capturing
-include Nanoc::Helpers::HTMLEscape
+# include Nanoc::Helpers::Blogging
+# include Nanoc::Helpers::Capturing
+# include Nanoc::Helpers::HTMLEscape
 include Nanoc::Helpers::LinkTo
 include Nanoc::Helpers::Rendering
 #include Nanoc::Helpers::Tagging

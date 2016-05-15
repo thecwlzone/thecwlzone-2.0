@@ -1,6 +1,0 @@
-[submodule "bibhtmlize"]
-	path = bibhtmlize
-	url = git://github.com/cdlm/bibhtmlize.git
-[submodule "publications"]
-	path = content/publications
-	url = git://github.com/cdlm/publications.git

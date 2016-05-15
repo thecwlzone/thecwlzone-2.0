@@ -16,6 +16,11 @@ data_sources:
 
 output_dir: staging/thecwlzone-2.0
 string_pattern_type: "legacy"
+enable_output_diff: true
+
+prune:
+  auto_prune: true
+  exclude: [ '.git' ]
 
 deploy:
 

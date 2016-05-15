@@ -1,41 +1,35 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    adsf (1.1.1)
+    adsf (1.2.1)
       rack (>= 1.0.0)
     builder (3.2.2)
-    chronic (0.9.1)
-    coderay (1.0.9)
+    coderay (1.1.1)
     colored (1.2)
     cri (2.7.0)
       colored (~> 1.2)
-    daemons (1.1.9)
-    eventmachine (1.0.3)
-    haml (4.0.3)
+    daemons (1.2.3)
+    eventmachine (1.2.0.1)
+    haml (4.0.7)
       tilt
-    json (1.8.0)
-    kramdown (1.0.2)
-    method_source (0.8.1)
+    kramdown (1.11.1)
+    method_source (0.8.2)
     nanoc (3.8.0)
       cri (~> 2.3)
-    nokogiri (1.5.9)
-    pry (0.9.12.2)
-      coderay (~> 1.0.5)
-      method_source (~> 0.8)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
       slop (~> 3.4)
-    rack (1.5.2)
-    rake (10.0.4)
+    rack (1.6.4)
+    rake (11.1.2)
     rubypants (0.2.0)
-    sass (3.2.9)
-    slop (3.4.5)
-    thin (1.5.1)
-      daemons (>= 1.0.9)
-      eventmachine (>= 0.12.6)
-      rack (>= 1.0.0)
-    tilt (1.4.1)
-    w3c_validators (1.2)
-      json
-      nokogiri
+    sass (3.4.22)
+    slop (3.6.0)
+    thin (1.6.4)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (~> 1.0)
+    tilt (2.0.3)
 
 PLATFORMS
   ruby
@@ -43,17 +37,14 @@ PLATFORMS
 DEPENDENCIES
   adsf
   builder
-  chronic
   haml
   kramdown
-  nanoc (>= 3.8.0)
-  nokogiri
+  nanoc (= 3.8.0)
   pry
   rake
   rubypants
   sass
   thin
-  w3c_validators
 
 BUNDLED WITH
-   1.10.6
+   1.12.2

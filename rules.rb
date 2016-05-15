@@ -5,7 +5,7 @@ preprocess do
   # sitemap
   hide_items do |item|
     case item.identifier
-    when %r{/publications/\d\d\d\d/.*}
+    when %r{/files/\d\d\d\d/.*}
       false
     when /404|500|htaccess/, %r{/(scripts|stylesheets)/.*}
       true
@@ -31,13 +31,13 @@ compile '*' do
       # filter :closure_compiler
     when 'sass'
       filter :sass, style: :compact
-      filter :relativize_paths, type: :css
+      # filter :relativize_paths, type: :css
     when 'erb', 'html', 'markdown'
       filter :erb
       filter :kramdown unless item[:extension] == 'erb'
       filter :rubypants
       layout 'default'
-      filter :relativize_paths, type: :html
+      # filter :relativize_paths, type: :html
     when 'feed', 'xml'
       filter :erb
       # filter :relativize_paths, type: :xml
@@ -50,10 +50,6 @@ compile '/gallery/.*' do
   layout 'gallery'
 end
 
-# compile '/images/gallery/*', rep: :thumbnail do
-#   filter :thumbnailize, width: 200
-# end
-
 route '*' do
   case item[:extension]
   when 'sass'
@@ -65,10 +61,4 @@ route '*' do
   else
     extension
   end
-end
-
-route '/images/gallery/*', rep: :thumbnail do
-  item.identifier.chop + '-thumbnail.' + item[:extension]
-  # item.identifier + '-thumbnail.' + item.ext
-  # item.identifier.chop + '-thumbnail.' + 'jpg'
 end
