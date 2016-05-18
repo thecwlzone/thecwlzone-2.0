@@ -12,10 +12,14 @@ GEM
     eventmachine (1.2.0.1)
     haml (4.0.7)
       tilt
+    json (1.8.3)
     kramdown (1.11.1)
     method_source (0.8.2)
-    nanoc (3.8.0)
+    mini_portile2 (2.0.0)
+    nanoc (4.1.6)
       cri (~> 2.3)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -30,6 +34,9 @@ GEM
       eventmachine (~> 1.0, >= 1.0.4)
       rack (~> 1.0)
     tilt (2.0.3)
+    w3c_validators (1.2)
+      json
+      nokogiri
 
 PLATFORMS
   ruby
@@ -39,12 +46,14 @@ DEPENDENCIES
   builder
   haml
   kramdown
-  nanoc (= 3.8.0)
+  nanoc (= 4.1.6)
+  nokogiri
   pry
   rake
   rubypants
   sass
   thin
+  w3c_validators
 
 BUNDLED WITH
    1.12.2

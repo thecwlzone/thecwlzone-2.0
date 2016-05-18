@@ -2,7 +2,7 @@
 title: Professional
 menu_title: Professional
 ---
-<%= render 'partials/markdown_links' %>
+<%= render '/partials/markdown_links.*' %>
 
 [Resume](/files/ChristopherWLehman.pdf){:target="_blank"} (PDF File) <span class="light"> A bit stale right now, try my LinkedIn site instead.</span>
 

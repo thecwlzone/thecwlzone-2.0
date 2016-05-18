@@ -10,20 +10,20 @@ preprocess do
     when /404|500|htaccess/, %r{/(scripts|stylesheets)/.*}
       true
     else
-      item.binary? || @site.config[:hidden_extensions].include?(item[:extension])
+      item.binary? || @config[:hidden_extensions].include?(item[:extension])
     end
   end
   create_sitemap
 end
 
-layout '*', :by_extension,
+layout '/**/*', :by_extension,
   haml: { format: :xhtml, ugly: true }
 
 # do not generate partials, Sass includes, etc
 ignore %r{/(_|README)}
 
 # default pipeline & routing
-compile '*' do
+compile '/**/*' do
   if item.binary?
   else
     case item[:extension]
@@ -36,7 +36,7 @@ compile '*' do
       filter :erb
       filter :kramdown unless item[:extension] == 'erb'
       filter :rubypants
-      layout 'default'
+      layout '/default.*'
       # filter :relativize_paths, type: :html
     when 'feed', 'xml'
       filter :erb
@@ -45,12 +45,11 @@ compile '*' do
   end
 end
 
-compile '/gallery/.*' do
-  filter :erb
-  layout 'gallery'
+route "/index.markdown" do
+  "/index.html"
 end
 
-route '*' do
+route '/**/*' do
   case item[:extension]
   when 'sass'
     extension 'css'

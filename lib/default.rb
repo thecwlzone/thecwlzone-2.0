@@ -2,20 +2,14 @@
 # All files in the 'lib' directory will be loaded
 # before nanoc starts compiling.
 
-# require 'nokogiri'
-
-# include Nanoc::Helpers::Blogging
-# include Nanoc::Helpers::Capturing
-# include Nanoc::Helpers::HTMLEscape
 include Nanoc::Helpers::LinkTo
 include Nanoc::Helpers::Rendering
-#include Nanoc::Helpers::Tagging
 
 # Route by setting the extension
 def extension(ext=nil, opts={})
   e = ext || item[:extension] || ''
   e = ".#{e}" unless e.empty?
-  id = item.identifier.chop
+  id = item.identifier.without_ext
   id += "/index" if opts[:as_index] || id.empty?
   id + e
 end
@@ -24,11 +18,7 @@ end
 def info(key, item=nil)
   item ||= @item
   item.attributes.fetch(key) do
-    if item.parent.nil?
-      @site.config[:default_info].fetch(key){ @site.config[key] }
-    else
-      info key, item.parent
-    end
+    @config[:default_info].fetch(key){ @config[key] }
   end
 end
 
@@ -72,27 +62,12 @@ def items_by_identifier(pattern)
 end
 
 # Core extensions
-class Nanoc::Item
+class Nanoc::ItemWithRepsView
   # Item hierarchy
   def ancestor_of?(item)
     return false if item.nil?
     return true if item == self
-    return true if item.parent == self
-    return true if self.children.include?(item)
-    ancestor_of?(item.parent)
   end
+
   def is_root?()  self.identifier == '/'  end
 end
-
-# Patch colors for solarized shinyness
-module Nanoc::CLI
-  class Logger
-    (ACTION_COLORS ||= {}).update(
-      :create     => "\e[38;5;2m",
-      :update     => "\e[38;5;3m",
-      :identical  => "\e[1;38;5;6m",
-      :skip       => "\e[1;38;5;6m"
-    )
-  end
-end
-

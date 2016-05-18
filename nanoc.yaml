@@ -11,21 +11,20 @@ hidden_extensions: [
   'js', 'coffee',
   'css', 'scss', 'sass', 'less' ]
 
-data_sources:
-  - { type: filesystem_unified, items_root: /, layouts_root: /, allow_periods_in_identifiers: true }
+# For sitemap generation
+base_url: http://www.thecwlzone.com
 
-output_dir: staging/thecwlzone-2.0
-string_pattern_type: "legacy"
-enable_output_diff: true
+output_dir: staging/thecwlzone-2.0/
+string_pattern_type: glob
+enable_output_diff: false
+
+data_sources:
+  - { type: filesystem_unified, items_root: /, layouts_root: /, allow_periods_in_identifiers: true, identifier_type: full }
+
 
 prune:
   auto_prune: true
   exclude: [ '.git' ]
-
-deploy:
-
-base_url: &BASE http://
-author_uri: *BASE
 
 # default and global metadata
 default_info:
@@ -50,7 +49,7 @@ default_info:
     object-oriented,
     software engineering
   header_menu:
-    - /professional/
-    - /academic/
-    - /about/
-    - /gallery/
+    - /professional.*
+    - /academic.*
+    - /about.*
+    - /gallery.*

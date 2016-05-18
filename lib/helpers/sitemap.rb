@@ -9,9 +9,9 @@ def hide_items
 end
 
 def create_sitemap
-  @items << Nanoc::Item.new(
+  @items.create(
     "<%= xml_sitemap %>",
     { :extension => 'xml', :is_hidden => true },
-    '/sitemap/'
+    '/sitemap'
   )
 end

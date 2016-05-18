@@ -2,7 +2,7 @@
 title: Academic
 menu_title: Academic
 ---
-<%= render 'partials/markdown_links' %>
+<%= render '/partials/markdown_links.*' %>
 
 ## Alma Maters
 

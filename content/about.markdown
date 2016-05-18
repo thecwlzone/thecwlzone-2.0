@@ -2,7 +2,7 @@
 title: About
 menu_title: About
 ---
-<%= render 'partials/markdown_links' %>
+<%= render '/partials/markdown_links.*' %>
 
 ## Professional Ramblings
 I haven't always been a web developer. <a href="#" class="text_toggle" onclick="toggle_visibility('ramblings_content');">Read More|Less</a>
