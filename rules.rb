@@ -22,6 +22,10 @@ layout '/**/*', :by_extension,
 # do not generate partials, Sass includes, etc
 ignore %r{/(_|README)}
 
+compile '/images/gallery/*', rep: :thumbnail do
+  filter :thumbnailize, width: 200
+end
+
 # default pipeline & routing
 compile '/**/*' do
   if item.binary?
@@ -47,6 +51,10 @@ end
 
 route "/index.markdown" do
   "/index.html"
+end
+
+route '/images/gallery/*', rep: :thumbnail do
+  item.identifier.without_ext + '-thumbnail.' + item.identifier.ext
 end
 
 route '/**/*' do
