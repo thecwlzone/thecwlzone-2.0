@@ -29,7 +29,7 @@ Internet Pawn and Boomerang Lending have merged into [Pawngo][Pawngo]{:target="_
 
 ### Boecore
 
-[Boecore][Boecore]{:target="_blank"} does business as a DoD contractor, and I helped develop BoBCAT - a Rails 2 application for automating and tracking the DIACAP compliance and Information Assurance activities required by the Missile Defense Agency. This was a classified project, but you can view some high level details [here](http://www.boecore.com/resources/Capabilities/Capabilities/Cyber---0810.pdf){:target="_blank"} (PDF file).
+[Boecore][Boecore]{:target="_blank"} does business as a DoD contractor, and I helped develop BoBCAT - a Rails 2 application for automating and tracking the DIACAP compliance and Information Assurance activities required by the Missile Defense Agency. This was a classified project.
 </div>
 {::options parse_block_html="false" /}
 

@@ -16,7 +16,7 @@ menu_title: "De'Lynne Salley Gallery"
   <ul>
   <% @items.find_all('/images/gallery/*').each do |img| %>
     <a href="<%= img.path %>">
-      <img src="<%= img.path(rep: :thumbnail) %>" title="<%= img[:title]%>"/>
+      <img src="<%= img.path(rep: :thumbnail) %>" title="<%= img[:title]%>" alt="<%= img[:alt]%>"/>
     </a>
   <% end %>
   </ul>
