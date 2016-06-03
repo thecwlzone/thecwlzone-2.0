@@ -4,7 +4,7 @@ menu_title: Professional
 ---
 <%= render '/partials/markdown_links.*' %>
 
-[Resume](/files/ChristopherWLehman.pdf){:target="_blank"} (PDF File) <span class="light"> A bit stale right now, try my LinkedIn site instead.</span>
+[comment]:[Resume](/files/ChristopherWLehman.pdf){:target="_blank"} (PDF File) <span class="light"> A bit stale right now, try my LinkedIn site instead.</span>
 
 My [LinkedIn][LinkedIn]{:target="_blank"} profile contains a complete summary of my career path.
 
