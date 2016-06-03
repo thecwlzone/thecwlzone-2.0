@@ -10,10 +10,10 @@ Doctor of Computer Science<br />
 [Colorado Technical University][CTU]{:target="_blank"} Colorado Springs, Colorado
 
 Master of Science, Computer Science<br />
-[Colorado Technical University][CTU]{:target="_blank"} Colorado Springs, Colorado 
+[Colorado Technical University][CTU]{:target="_blank"} Colorado Springs, Colorado
 
 Bachelor of Science, Electrical Engineering<br />
-[Northeastern University][NU]{:target="_blank"} Boston, Massachusetts 
+[Northeastern University][NU]{:target="_blank"} Boston, Massachusetts
 
 ## Publications
 
@@ -55,7 +55,7 @@ The dissertation is approved, and is available from [UMI][UMI]{:target="_blank"}
 </div>
 {::options parse_block_html="false" /}
 
-<script type="text/javascript">
+<script>
 function toggle_visibility(id) {
 var e = document.getElementById(id);
 e.style.display = ((e.style.display!='none') ? 'none' : 'block');

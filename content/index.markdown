@@ -3,8 +3,9 @@ title: Home
 menu_title: Home
 ---
 <%= render '/partials/markdown_links.*' %>
+
 <% render "/slidesjs/slideshow_bare.*", style: 'width:100%;height:262px;', css_class: 'center noframe' do %>
-  <% items_by_identifier(%r{/images/landscapes.*}).shuffle(random: Random.new(3)).each do |i| %>
+  <% items_by_identifier(%r{/images/landscapes.*}).shuffle!(random: Random.new(2)).each do |i| %>
     <img class='slide' src="<%= relative_path_to i %>" title="Photography by De'Lynne Salley. All rights reserved." alt="Random landscapes" />
   <% end %>
 <% end %>
@@ -54,6 +55,11 @@ Chris
 <%= render '/partials/contact_info.*' %>
 
 <div class="banner">
+  <p>This site is built with HTML5. Use Internet Explorer at your own
+  risk.</p>
+</div>
+
+<div class="banner">
   <p>This site does not use Google Analytics or any other user tracking software</p>
 </div>
 
@@ -61,7 +67,7 @@ Chris
 <p>Disclaimer: The content of this site is my own, and it does not represent any past, present or future employer's positions, strategies or opinions.</p>
 </div>
 
-<script type="text/javascript">
+<script>
 function toggle_visibility() {
 var e = document.getElementById("more_content");
 e.style.display = ((e.style.display!='none') ? 'none' : 'block');

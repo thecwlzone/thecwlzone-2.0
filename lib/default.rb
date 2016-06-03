@@ -37,13 +37,13 @@ end
 def ancestor_link_unless_current(title, destination)
   attributes = {}
   if not destination.is_root? and destination.ancestor_of? @item
-    attributes.update :class => 'active'
+    attributes.update class: 'active'
   end
   if destination != @item
-    attributes.update :href => (relative_path_to destination)
+    attributes.update href: (relative_path_to destination)
     elt = 'a'
   else
-    attributes.update :title => "You're here"
+    attributes.update title: "You're here"
     elt = 'span'
   end
   result = "<#{elt}"

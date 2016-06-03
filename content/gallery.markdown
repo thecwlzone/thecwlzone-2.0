@@ -2,7 +2,7 @@
 title: "De'Lynne Salley Gallery"
 menu_title: "De'Lynne Salley Gallery"
 ---
-## De'Lynne Salley Gallery
+## De\'Lynne Salley Gallery
 
 ### Colorado Landscapes: Paintings in Oil
 
@@ -13,11 +13,9 @@ menu_title: "De'Lynne Salley Gallery"
 </div>
 
 <div css_class='center'>
-  <ul>
   <% @items.find_all('/images/gallery/*').each do |img| %>
     <a href="<%= img.path %>">
       <img src="<%= img.path(rep: :thumbnail) %>" title="<%= img[:title]%>" alt="<%= img[:alt]%>"/>
     </a>
   <% end %>
-  </ul>
 </div>

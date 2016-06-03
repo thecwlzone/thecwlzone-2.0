@@ -44,7 +44,7 @@ I have completed the [PMI][PMI]{:target="_blank"}: Fundamentals of Project Manag
 </div>
 {::options parse_block_html="false" /}
 
-<script type="text/javascript">
+<script>
 function toggle_visibility(id) {
 var e = document.getElementById(id);
 e.style.display = ((e.style.display!='none') ? 'none' : 'block');

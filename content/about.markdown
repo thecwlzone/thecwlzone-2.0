@@ -47,10 +47,11 @@ The source code for this site is publicly available at my [GitHub][GitHub]{:targ
 
 This site has been tested against the following web browsers:
 
-* Google Chrome Version 43.x
-* Safari Version 7.1
-* Firefox 38.x
-* Internet Explorer 10.0.9200.16721 (but try using a *real* web browser if you can)
+* Google Chrome Version 50.x
+* Safari Version 9.1
+* Firefox 46.x
+* Internet Explorer - really? This is an HTML5 site, good luck with
+that.
 
 </div>
 {::options parse_block_html="false" /}
@@ -62,11 +63,11 @@ This site has been tested against the following web browsers:
 
 2. the [nanoc][Nanoc]{:target="_blank"} team for putting together a very nice Ruby-based static site generator. It's been fun. Thanks!
 
-3. the nanoc Wiki that contains a list of [showcased][NanocShowcase]{:target="_blank"} web sites which use nanoc. I am indebted to Professor [Damien Pollet][DamienPollet]{:target="_blank"} for making his code publicly available, providing me with a starting point towards building a decent looking web site. *Merci Beaucoup!* 
+3. the nanoc Wiki that contains a list of [showcased][NanocShowcase]{:target="_blank"} web sites which use nanoc. I am indebted to Professor [Damien Pollet][DamienPollet]{:target="_blank"} for making his code publicly available, providing me with a starting point towards building a decent looking web site. *Merci Beaucoup!*
 
-4. my wife De'Lynne who is a great photographer. All the images on the Home page are her creations. I would be lost without you.
+4. my wife De'Lynne who is a great photographer and artist. All the images on the Home page and the oil paintings in the [gallery](/gallery) are her creations. I would be lost without you.
 
-<script type="text/javascript">
+<script>
 function toggle_visibility(id) {
 var e = document.getElementById(id);
 e.style.display = ((e.style.display!='none') ? 'none' : 'block');
