@@ -12,7 +12,7 @@ menu_title: "De'Lynne Salley Gallery"
   Click for a larger image. Roll your mouse over the images to see title, size and pricing.
 </div>
 
-<div css_class='center'>
+<div>
   <% @items.find_all('/images/gallery/*').each do |img| %>
     <a href="<%= img.path %>">
       <img src="<%= img.path(rep: :thumbnail) %>" title="<%= img[:title]%>" alt="<%= img[:alt]%>"/>
