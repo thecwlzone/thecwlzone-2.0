@@ -50,7 +50,7 @@ This site has been tested against the following web browsers:
 * Google Chrome Version 50.x
 * Safari Version 9.1
 * Firefox 46.x
-* Internet Explorer - really? This is an HTML5 site, good luck with
+* Internet Explorer 11, probably works OK with version 10 as well.
 that.
 
 </div>
