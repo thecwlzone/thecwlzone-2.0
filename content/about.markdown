@@ -51,7 +51,6 @@ This site has been tested against the following web browsers:
 * Safari Version 9.1
 * Firefox 46.x
 * Internet Explorer 11, probably works OK with version 10 as well.
-that.
 
 </div>
 {::options parse_block_html="false" /}
