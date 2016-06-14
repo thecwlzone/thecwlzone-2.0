@@ -55,8 +55,7 @@ Chris
 <%= render '/partials/contact_info.*' %>
 
 <div class="banner">
-  <p>This site is built with HTML5.
-  risk.</p>
+  <p>This site is built with HTML5.</p>
 </div>
 
 <div class="banner">
