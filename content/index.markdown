@@ -59,7 +59,7 @@ Chris
 </div>
 
 <div class="banner">
-  <p>This site does not use Google Analytics or any other user tracking software</p>
+  <p>This site does not use Google Analytics or any other user tracking software.</p>
 </div>
 
 <div class="banner">
