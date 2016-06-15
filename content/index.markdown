@@ -55,7 +55,13 @@ Chris
 <%= render '/partials/contact_info.*' %>
 
 <div class="banner">
-  <p>This site is built with HTML5.</p>
+  <p>This site is built with HTML5 and CSS3.
+     <a href="http://jigsaw.w3.org/css-validator/check/referer">
+       <img style="border:0;width:88px;height:31px"
+         src="http://jigsaw.w3.org/css-validator/images/vcss"
+         alt="Valid CSS!" />
+      </a>
+  </p>
 </div>
 
 <div class="banner">
