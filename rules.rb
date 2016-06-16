@@ -32,19 +32,15 @@ compile '/**/*' do
   else
     case item[:extension]
     when /(.+\.)?js/
-      # filter :closure_compiler
     when 'sass'
       filter :sass, style: :compact
-      # filter :relativize_paths, type: :css
     when 'erb', 'html', 'markdown'
       filter :erb
       filter :kramdown unless item[:extension] == 'erb'
       filter :rubypants
       layout '/default.*'
-      # filter :relativize_paths, type: :html
     when 'feed', 'xml'
       filter :erb
-      # filter :relativize_paths, type: :xml
     end
   end
 end

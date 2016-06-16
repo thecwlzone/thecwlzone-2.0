@@ -5,7 +5,7 @@ menu_title: Home
 <%= render '/partials/markdown_links.*' %>
 
 <% render "/slidesjs/slideshow_bare.*", style: 'width:100%;height:262px;', css_class: 'center noframe' do %>
-  <% items_by_identifier(%r{/images/landscapes.*}).shuffle!(random: Random.new(2)).each do |i| %>
+  <% items_by_identifier(%r{/images/landscapes.*}).sample(5).each do |i| %>
     <img class='slide' src="<%= relative_path_to i %>" title="Photography by De'Lynne Salley. All rights reserved." alt="Random landscapes" />
   <% end %>
 <% end %>
@@ -55,13 +55,7 @@ Chris
 <%= render '/partials/contact_info.*' %>
 
 <div class="banner">
-  <p>This site is built with HTML5 and CSS3.
-     <a href="http://jigsaw.w3.org/css-validator/check/referer">
-       <img style="border:0;width:88px;height:31px"
-         src="http://jigsaw.w3.org/css-validator/images/vcss"
-         alt="Valid CSS!" />
-      </a>
-  </p>
+  <p>This site is built with HTML5 and CSS3.</p>
 </div>
 
 <div class="banner">
