@@ -16,7 +16,7 @@ GEM
     kramdown (1.11.1)
     method_source (0.8.2)
     mini_portile2 (2.0.0)
-    nanoc (4.1.6)
+    nanoc (4.2.1)
       cri (~> 2.3)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -46,7 +46,7 @@ DEPENDENCIES
   builder
   haml
   kramdown
-  nanoc (= 4.1.6)
+  nanoc (= 4.2.1)
   nokogiri
   pry
   rake
