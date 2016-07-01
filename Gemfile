@@ -4,7 +4,6 @@ gem 'nanoc', '4.2.1'
 gem 'rake'
 gem 'adsf' # nanoc view
 gem 'thin'
-gem 'w3c_validators' # nanoc check
 
 gem 'builder' # sitemap
 gem 'kramdown'
