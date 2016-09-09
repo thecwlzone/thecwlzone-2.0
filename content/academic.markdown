@@ -28,7 +28,7 @@ Once in awhile, I get something published.
 (Note: The Rails Magazine site may be toast)
 
 "A Rule-Based Expert System for the Diagnosis of Convergence Problems in Circuit Simulation"<br />
-[SEKE][SEKE]{:target="_blank"} 2006 [Paper](/files/SEKE2006-Lehman.pdf) (PDF File)
+[SEKE][SEKE]{:target="_blank"} 2006 [Paper](/files/SEKE2006-Lehman.pdf.gz) (PDF File)
 </div>
 {::options parse_block_html="false" /}
 
@@ -44,12 +44,12 @@ Doctor of Computer Science (DCS), Colorado Technical University
 Featuring SOAR: *S*imulation *O*utput *A*nalysis and *R*ecommendations - A [Ruby on Rails][Rails]{:target="_blank"} / [CLIPS Expert System][CLIPS]{:target="_blank"} Integration
 
 ### Dissertation Documents
-[Dissertation Defense](/files/Defense_with_Notes.pdf){:target="_blank"} (PDF version of PowerPoint Slides)
+[Dissertation Defense](/files/Defense_with_Notes.pdf.gz){:target="_blank"} (PDF version of PowerPoint Slides)
 Held on December 19th, 2005
 
-[Abstract](/files/Abstract.pdf){:target="_blank"} (PDF File)
+[Abstract](/files/Abstract.pdf.gz){:target="_blank"} (PDF File)
 
-[Dissertation Acknowledgements Page](/files/Acknowledgments.pdf){:target="_blank"} (PDF File)
+[Dissertation Acknowledgements Page](/files/Acknowledgments.pdf.gz){:target="_blank"} (PDF File)
 
 The dissertation is approved, and is available from [UMI][UMI]{:target="_blank"}
 </div>
