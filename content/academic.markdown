@@ -24,8 +24,7 @@ Once in awhile, I get something published.
 <div id="more_publications_content" style="display:none">
 
 "Converting A Rails Site to Refinery CMS"<br />
-[Rails Magazine Issue # 7][RailsMag]{:target="_blank"}<br />
-(Note: The Rails Magazine site may be toast)
+[Rails Magazine][RailsMag]{:target="_blank"}<br />
 
 "A Rule-Based Expert System for the Diagnosis of Convergence Problems in Circuit Simulation"<br />
 [SEKE][SEKE]{:target="_blank"} 2006 [Paper](/files/SEKE2006-Lehman.pdf.gz) (PDF File)
