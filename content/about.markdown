@@ -13,13 +13,15 @@ I've been doing Rails development full time since 2009, and I've been working wi
 
 Prior to that, I spent 27 years in the semiconductor industry at various companies such as Ford Microelectronics, [Cypress Semiconductor][Cypress]{:target="_blank"} and [IBM][IBM]{:target="_blank"}. I was a [DevOps][DevOps]{:target="_blank"} before the buzzword was invented: doing a combination of software development and system administration, as well as acting as the local SME for the [Electronic Design Automation][EDA]{:target="_blank"} tools vital for the creation of [VLSI][VLSI] circuits.
 
-My Ford career in the 1980s was great fun. A Motor City exile working for a car company in Colorado - it doesn't get much better than that. We were designing [first generation][Intel8061]{:target="_blank"} automotive electronics during the week and running Mustangs and T-birds in [SCCA][SCCA]{:target="_blank"} Solo II competition on the weekends. Motor Head Nirvana.
+My Ford career in the 1980s was great fun. A Motor City exile working for a car company in Colorado - it doesn't get much better than that. We were designing [first generation][Intel8061]{:target="_blank"} automotive electronics during the week and running Mustangs and T-birds in [SCCA][SCCA]{:target="_blank"} Solo II competition on the weekends. Motor Head Nirvana. ![scca](/images/other/scca.jpg)
 
-But all things come to an end, and when I ran out of interesting things to do at Ford I jumped ship to a VLSI design startup, that went under the following year. The design team was picked up by Cypress, and I spent 14 years at the Colorado Springs Design Center where we designed [static RAMs][RAMs] that generated over $1.5 billion in revenue for the company.
+But all things come to an end, and when I ran out of interesting things to do at Ford I jumped ship to a VLSI design startup, that went under the following year. The design team was picked up by Cypress, and I spent 14 years at the Colorado Springs Design Center where we designed [static RAMs][RAMs] that generated over $1.5 billion in revenue for the company. ![sram](/images/other/Cypress_72MbitQDRII_SRAM.jpg)
 
-During my Cypress era the [Dot Bomb][DotBomb]{:target="_blank"} crash of 2000 played out, and after dodging more layoffs than I care to remember, my number came up in 2005, and that was the end of the road with Cypress.
+The [Dot Bomb][DotBomb]{:target="_blank"} crash of 2000 seriously affected the semiconductor industry, and after dodging more layoffs than I care to remember, my number came up in 2005, and that was the end of the road with Cypress.
 
 The crew that was cut from Cypress represented a huge amount of VLSI expertise, and we persuaded IBM to let us set up a new VLSI design center in Colorado Springs. Yet another semiconductor market pullback ultimately killed that idea, and as an unwilling participant in the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on Rails web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable "second career" choice. And that's where I am today.![smiley1](/images/other/biggrin.gif)
+
+![gravatar](/images/other/cwl_gravatar.jpeg)
 
 If you're interested in a more "formal" career timeline, my [LinkedIn][LinkedIn]{:target="_blank"} profile has all the dates and details. Cheers!
 
