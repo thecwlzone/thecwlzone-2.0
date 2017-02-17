@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'nanoc', '4.2.1'
+gem 'nanoc'
 gem 'rake'
 gem 'adsf' # nanoc view
 gem 'thin'

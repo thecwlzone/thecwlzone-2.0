@@ -42,7 +42,7 @@ DEPENDENCIES
   builder
   haml
   kramdown
-  nanoc (= 4.2.1)
+  nanoc
   nokogiri
   pry
   rake
@@ -51,4 +51,4 @@ DEPENDENCIES
   thin
 
 BUNDLED WITH
-   1.12.2
+   1.13.6
