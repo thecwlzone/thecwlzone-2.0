@@ -11,7 +11,7 @@ I haven't always been a web developer. <a href="#" class="text_toggle" onclick="
 <div id="ramblings_content" style="display:none">
 I've been doing Rails development full time since 2009, and I've been working with the [Ruby][Ruby]{:target="_blank"} language since 2005.
 
-Prior to that, I spent 27 years in the semiconductor industry at various companies such as Ford Microelectronics, [Cypress Semiconductor][Cypress]{:target="_blank"} and [IBM][IBM]{:target="_blank"}. I was a [DevOps][DevOps]{:target="_blank"} before the buzzword was invented: doing a combination of software development and system administration, as well as acting as the local SME for the [Electronic Design Automation][EDA]{:target="_blank"} tools vital for the creation of [VLSI][VLSI] circuits.
+Prior to that, I spent 27 years in the semiconductor industry at Ford Microelectronics, [Cypress Semiconductor][Cypress]{:target="_blank"} and [IBM][IBM]{:target="_blank"}. I was a [DevOps][DevOps]{:target="_blank"} before the buzzword was invented: doing a combination of software development and system administration, as well as acting as the local SME for the [Electronic Design Automation][EDA]{:target="_blank"} tools vital for the creation of [VLSI][VLSI] circuits.
 
 My Ford career in the 1980s was great fun. A Motor City exile working for a car company in Colorado - it doesn't get much better than that. We were designing [first generation][Intel8061]{:target="_blank"} automotive electronics during the week and running Mustangs and T-birds in [SCCA][SCCA]{:target="_blank"} Solo II competition on the weekends. Motor Head Nirvana. ![scca](/images/other/scca.jpg)
 
