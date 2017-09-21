@@ -20,7 +20,7 @@ Hello, and welcome to my web site.
 ##### Current Employment
 I am a Senior Engineer with Comcast's Technology and Product Development organization (T&P).
 
-   I am a member the Applications Management Tools Team consisting of six Developers (including myself), a Manager and a Business Analyst. We're building Configuration Management Database systems and Asset Management systems that track configuration and network topology information for the 6000+ Applications and 400K+ Devices used within T&P.
+   I am a member the Applications Management Tools Team consisting of six Developers (including myself), a Manager and a Business Analyst. We're building Configuration Management Database systems and Asset Management systems that track configuration and network topology information for the 8000+ Applications and 400K+ Devices used within T&P.
 
    Our development stack includes [Ruby on Rails][Rails]{:target="_blank"} 4.x and 5.1. Front-end technology includes [jQuery][jQuery]{:target="_blank"} and [Twitter Bootstrap][TwitterBootstrap]{:target="_blank"} (with an [Ember.js][Ember]{:target="_blank"} update under development), and our backend databases are [MySQL][MySQL]{:target="_blank"}, [MongoDB][MongoDB]{:target="_blank"} and [Oracle][Oracle]{:target="_blank"}. We do a *lot* of API work as we talk to over a dozen databases within the T&P community. Version control and [Continuous Integration][CI] of the Rails code base are handled by [Git][Git]{:target="_blank"} and [Jenkins][Jenkins]{:target="_blank"}.
 

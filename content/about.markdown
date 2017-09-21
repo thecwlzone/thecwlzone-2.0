@@ -50,8 +50,8 @@ The source code for this site is publicly available at my [GitHub][GitHub]{:targ
 This site has been tested against the following web browsers:
 
 * Google Chrome Version 55.0
-* Safari Version 10.0
-* Firefox 50.1
+* Safari Version 11.0
+* Firefox 55.0
 * Internet Explorer 11, probably works OK with version 10 as well.
 
 </div>
@@ -66,7 +66,7 @@ This site has been tested against the following web browsers:
 
 3. the nanoc Wiki that contains a list of [showcased][NanocShowcase]{:target="_blank"} web sites which use nanoc. I am indebted to Professor [Damien Pollet][DamienPollet]{:target="_blank"} for making his code publicly available, providing me with a starting point towards building a decent looking web site. *Merci Beaucoup!*
 
-4. my wife De'Lynne who is a great photographer and artist. All the images on the Home page and the oil paintings in the [gallery](/gallery) are her creations. I would be lost without you.
+4. my wife De'Lynne who is a great photographer and artist. All the images on the Home page and the oil paintings in the [gallery](/gallery) are her creations.
 
 <script>
 function toggle_visibility(id) {
