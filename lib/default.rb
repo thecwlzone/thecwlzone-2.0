@@ -62,7 +62,7 @@ def items_by_identifier(pattern)
 end
 
 # Core extensions
-class Nanoc::ItemWithRepsView
+class Nanoc::BasicItemView
   # Item hierarchy
   def ancestor_of?(item)
     return false if item.nil?

@@ -5,8 +5,12 @@ menu_title: Home
 <%= render '/partials/markdown_links.*' %>
 
 <% render "/slidesjs/slideshow_bare.*", style: 'width:100%;height:260px;', css_class: 'center noframe' do %>
-  <% items_by_identifier(%r{/images/colo_landscapes.*}).each do |i| %>
-    <img class='slide' src="<%= relative_path_to i %>" title="Photography by De'Lynne Salley. All rights reserved." alt="Random landscapes" />
+  <% items_by_identifier(%r{/images/portugal_and_spain_landscapes.*}).each do |i| %>
+    <img class='slide'
+      src="<%= relative_path_to i %>"
+      title="Photography by De'Lynne Salley. All rights reserved."
+      alt="Random Portugal and Spain Landscapes"
+    />
   <% end %>
 <% end %>
 
