@@ -13,7 +13,8 @@ preprocess do
       item.binary? || @config[:hidden_extensions].include?(item[:extension])
     end
   end
-  create_sitemap
+  # Let All In One SEO Wordpress plugin do this
+  # create_sitemap
 end
 
 layout '/**/*', :by_extension,
